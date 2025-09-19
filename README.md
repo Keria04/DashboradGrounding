@@ -16,3 +16,27 @@ dashboard-visual-grounding/
 ├── src/                    # 核心代码
 ```
 
+## 第一阶段
+
+### Dashborad Segmentation Label
+
+- Title （标题）
+- Card （卡片/数字卡片）
+- Bar chart（柱状图）
+- Column chart（折线图）
+- Area chart（面积图）
+- Pie chart（饼图）
+- Donut chart（环形图）
+- Scatter plot（散点图）
+- Bubble chart（气泡图）
+- Rader chart（雷达图）
+- Heatmap（热力图）
+- Gantt chart（甘特图）
+- Waterfall chart（瀑布图）
+- Progress bar（进度条）
+- Dial chart（计量仪表盘/速度表）
+- Percentage indicator（百分比指标）
+- Data table（数据表格）
+- Map（地图）
+- Slider （滑块）
+- Dropdown menu（下拉菜单）
