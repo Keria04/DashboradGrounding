@@ -20,7 +20,6 @@ dashboard-visual-grounding/
 
 ### Dashborad Segmentation Label
 
-- Title （标题）
 - Card （卡片/数字卡片）
 - Bar chart（柱状图）
 - Column chart（折线图）
@@ -38,5 +37,3 @@ dashboard-visual-grounding/
 - Percentage indicator（百分比指标）
 - Data table（数据表格）
 - Map（地图）
-- Slider （滑块）
-- Dropdown menu（下拉菜单）
