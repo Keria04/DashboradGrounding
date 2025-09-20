@@ -37,3 +37,14 @@ dashboard-visual-grounding/
 - Percentage indicator（百分比指标）
 - Data table（数据表格）
 - Map（地图）
+
+#### Annotation分工
+
+- Annotator1——张悦菲
+  - dashboard_0001.png——dashboard_0069.png
+- Annotator2——李昕凌
+  - dashboard_0070.png——dashboard_0139.png
+- Annotator3——蔡怡乐
+  - dashboard_0140.png——dashboard_0209.png
+- Annotator4——本帅
+  - dashboard_0210.png——dashboard_0279.png
