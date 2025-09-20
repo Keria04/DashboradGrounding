@@ -46,5 +46,5 @@ dashboard-visual-grounding/
   - dashboard_0070.png——dashboard_0139.png
 - Annotator3——蔡怡乐
   - dashboard_0140.png——dashboard_0209.png
-- Annotator4——本帅
+- Annotator4——曹均杰
   - dashboard_0210.png——dashboard_0279.png
