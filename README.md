@@ -37,6 +37,7 @@ dashboard-visual-grounding/
 - Percentage indicator（百分比指标）
 - Data table（数据表格）
 - Map（地图）
+- Calender（日历）
 
 #### Annotation分工
 
