@@ -39,6 +39,7 @@ dashboard-visual-grounding/
 - Map（地图）
 - Calender（日历）
 - Time Line（时间线）
+- Mind Map（思维导图）
 
 #### Annotation分工
 
