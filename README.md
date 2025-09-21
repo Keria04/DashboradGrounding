@@ -38,6 +38,7 @@ dashboard-visual-grounding/
 - Data table（数据表格）
 - Map（地图）
 - Calender（日历）
+- Time Line（时间线）
 
 #### Annotation分工
 
