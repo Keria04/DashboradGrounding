@@ -22,7 +22,7 @@ dashboard-visual-grounding/
 
 - Card （卡片/数字卡片）
 - Bar chart（柱状图）
-- Column chart（折线图）
+- Line chart（折线图）
 - Area chart（面积图）
 - Pie chart（饼图）
 - Donut chart（环形图）
