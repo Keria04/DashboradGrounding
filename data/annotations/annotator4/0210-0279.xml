@@ -1,0 +1,1276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>1648310</id>
+      <name>Visual Grounding</name>
+      <size>70</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker></bugtracker>
+      <created>2025-09-22 08:07:07.788189+00:00</created>
+      <updated>2025-09-25 07:47:16.204797+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>69</stop_frame>
+      <frame_filter></frame_filter>
+      <segments>
+        <segment>
+          <id>3027759</id>
+          <start>0</start>
+          <stop>69</stop>
+          <url>https://app.cvat.ai/api/jobs/3025972</url>
+        </segment>
+      </segments>
+      <owner>
+        <username>CodeRonaldo</username>
+        <email>tsy20050319@qq.com</email>
+      </owner>
+      <assignee></assignee>
+      <labels>
+        <label>
+          <name>Card</name>
+          <color>#5b98c6</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Bar chart</name>
+          <color>#6e48fc</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Line chart</name>
+          <color>#819f35</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Area chart</name>
+          <color>#d0a764</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Pie chart</name>
+          <color>#4a6960</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Donut chart</name>
+          <color>#6fdd40</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Scatter plot</name>
+          <color>#3f28f7</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Bubble chart</name>
+          <color>#9535c7</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Rader chart</name>
+          <color>#4a53e7</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Heatmap</name>
+          <color>#cd2f5b</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Gantt chart</name>
+          <color>#405590</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Waterfall chart</name>
+          <color>#48a060</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Progress bar</name>
+          <color>#665205</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Dial chart</name>
+          <color>#c1d739</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Percentage indicator</name>
+          <color>#ff3ecb</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Data table</name>
+          <color>#80f1c4</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Map</name>
+          <color>#a275e2</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Calender</name>
+          <color>#a1bbff</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Time Line</name>
+          <color>#5844ed</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>Mind Map</name>
+          <color>#7d7acb</color>
+          <type>any</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+    </task>
+    <dumped>2025-09-25 07:48:41.688905+00:00</dumped>
+  </meta>
+  <image id="0" name="dashboard_0210.png" width="1308" height="705">
+    <box label="Donut chart" source="manual" occluded="0" xtl="21.51" ytl="415.96" xbr="650.95" ybr="608.37" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="24.58" ytl="131.43" xbr="646.86" ybr="395.49" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="669.37" ytl="144.74" xbr="1290.62" ybr="694.34" z_order="0">
+    </box>
+  </image>
+  <image id="1" name="dashboard_0211.png" width="2048" height="1190">
+    <box label="Card" source="manual" occluded="0" xtl="55.89" ytl="595.44" xbr="413.74" ybr="701.13" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="458.24" ytl="591.73" xbr="821.65" ybr="704.84" z_order="0">
+    </box>
+    <box label="Waterfall chart" source="manual" occluded="0" xtl="895.81" ytl="317.32" xbr="2023.13" ybr="842.04" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="42.91" ytl="869.86" xbr="825.36" ybr="1038.58" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="895.81" ytl="873.56" xbr="2015.72" ybr="1153.54" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="456.38" ytl="723.38" xbr="821.65" ybr="853.17" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="50.32" ytl="723.38" xbr="413.74" ybr="853.17" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="54.03" ytl="330.30" xbr="426.71" ybr="523.13" z_order="0">
+    </box>
+  </image>
+  <image id="2" name="dashboard_0212.png" width="2048" height="1186">
+    <box label="Scatter plot" source="manual" occluded="0" xtl="664.05" ytl="265.22" xbr="2012.01" ybr="749.15" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="28.07" ytl="771.40" xbr="639.94" ybr="1138.52" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="26.22" ytl="265.22" xbr="641.80" ybr="752.86" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="664.05" ytl="765.84" xbr="2021.28" ybr="1136.67" z_order="0">
+    </box>
+  </image>
+  <image id="3" name="dashboard_0213.png" width="2048" height="1173">
+    <box label="Pie chart" source="manual" occluded="0" xtl="1555.89" ytl="129.87" xbr="2034.26" ybr="597.11" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="478.63" ytl="129.87" xbr="1559.60" ybr="604.53" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="16.95" ytl="122.45" xbr="487.90" ybr="600.82" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="26.22" ytl="610.09" xbr="2004.59" ybr="1127.40" z_order="0">
+    </box>
+  </image>
+  <image id="4" name="dashboard_0214.png" width="2048" height="1177">
+    <box label="Heatmap" source="manual" occluded="0" xtl="9.53" ytl="608.42" xbr="2034.26" ybr="1177.00" z_order="0">
+    </box>
+    <box label="Waterfall chart" source="manual" occluded="0" xtl="1018.19" ytl="122.63" xbr="2045.38" ybr="604.71" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="9.53" ytl="124.49" xbr="1025.60" ybr="606.57" z_order="0">
+    </box>
+  </image>
+  <image id="5" name="dashboard_0215.png" width="2048" height="1172">
+    <box label="Bar chart" source="manual" occluded="0" xtl="961.45" ytl="126.16" xbr="2029.44" ybr="598.97" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="17.69" ytl="122.45" xbr="494.21" ybr="600.82" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="488.64" ytl="126.16" xbr="963.30" ybr="610.09" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="17.69" ytl="606.38" xbr="1630.80" ybr="1172.00" z_order="0">
+    </box>
+  </image>
+  <image id="6" name="dashboard_0216.png" width="2048" height="1169">
+    <box label="Donut chart" source="manual" occluded="0" xtl="6.57" ytl="600.26" xbr="705.58" ybr="1163.92" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="701.87" ytl="123.75" xbr="2027.58" ybr="272.08" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="614.73" ytl="273.93" xbr="898.41" ybr="435.24" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="618.43" ytl="437.10" xbr="896.56" ybr="592.85" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="896.56" ytl="346.24" xbr="1182.09" ybr="470.47" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="896.56" ytl="464.91" xbr="1183.95" ybr="594.70" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1187.66" ytl="348.10" xbr="1473.20" ybr="470.47" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1182.09" ytl="466.76" xbr="1467.63" ybr="592.85" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1462.07" ytl="346.24" xbr="1758.73" ybr="470.47" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1467.63" ytl="470.47" xbr="1755.03" ybr="589.14" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1753.17" ytl="348.10" xbr="2033.15" ybr="459.35" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1742.05" ytl="470.47" xbr="2027.58" ybr="589.14" z_order="0">
+    </box>
+    <box label="Waterfall chart" source="manual" occluded="0" xtl="700.02" ytl="598.41" xbr="2033.15" ybr="1167.63" z_order="0">
+    </box>
+  </image>
+  <image id="7" name="dashboard_0217.png" width="2048" height="1170">
+    <box label="Card" source="manual" occluded="0" xtl="21.40" ytl="469.92" xbr="323.62" ybr="625.66" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="23.25" ytl="139.88" xbr="323.62" ybr="299.33" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="1002.24" ytl="785.12" xbr="1684.57" ybr="1159.66" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="329.19" ytl="786.98" xbr="1005.95" ybr="1167.08" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="338.46" ytl="134.32" xbr="2033.15" ybr="254.84" z_order="0">
+    </box>
+    <box label="Waterfall chart" source="manual" occluded="0" xtl="1176.53" ytl="419.85" xbr="2033.15" ybr="788.83" z_order="0">
+    </box>
+    <box label="Waterfall chart" source="manual" occluded="0" xtl="327.33" ytl="418.00" xbr="1176.53" ybr="792.54" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="23.25" ytl="301.19" xbr="319.92" ybr="462.50" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="1677.15" ytl="974.24" xbr="2031.29" ybr="1167.08" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="21.40" ytl="1066.95" xbr="327.33" ybr="1168.93" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="26.96" ytl="959.41" xbr="323.62" ybr="1059.54" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="28.81" ytl="796.25" xbr="319.92" ybr="955.70" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="25.11" ytl="629.37" xbr="323.62" ybr="792.54" z_order="0">
+    </box>
+  </image>
+  <image id="8" name="dashboard_0218.png" width="2048" height="1171">
+    <box label="Bar chart" source="manual" occluded="0" xtl="15.84" ytl="601.19" xbr="961.45" ybr="805.15" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="19.54" ytl="130.24" xbr="494.21" ybr="599.34" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="1562.19" ytl="126.53" xbr="2029.44" ybr="599.34" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="17.69" ytl="821.83" xbr="961.45" ybr="1170.41" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="955.89" ytl="816.27" xbr="2031.29" ybr="1168.56" z_order="0">
+    </box>
+    <box label="Pie chart" source="manual" occluded="0" xtl="479.37" ytl="126.53" xbr="963.30" ybr="603.04" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="957.74" ytl="126.53" xbr="1558.49" ybr="599.34" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="965.16" ytl="595.63" xbr="2031.29" ybr="803.29" z_order="0">
+    </box>
+  </image>
+  <image id="9" name="dashboard_0219.png" width="2048" height="1055">
+    <box label="Bar chart" source="manual" occluded="0" xtl="1452.80" ytl="450.45" xbr="1988.65" ybr="609.90" z_order="0">
+    </box>
+    <box label="Progress bar" source="manual" occluded="0" xtl="1480.61" ytl="622.88" xbr="1999.77" ybr="754.53" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1486.17" ytl="765.65" xbr="2010.90" ybr="1028.94" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="590.62" ytl="142.66" xbr="2035.00" ybr="1049.34" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="17.69" ytl="133.39" xbr="572.08" ybr="1047.48" z_order="0">
+    </box>
+  </image>
+  <image id="10" name="dashboard_0220.png" width="1276" height="1281">
+    <box label="Card" source="manual" occluded="0" xtl="1123.42" ytl="331.14" xbr="1267.67" ybr="444.73" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1119.82" ytl="206.72" xbr="1267.67" ybr="320.32" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1127.03" ytl="73.29" xbr="1265.87" ybr="197.71" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="971.96" ytl="464.57" xbr="1105.39" ybr="569.15" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="962.95" ytl="327.53" xbr="1109.00" ybr="446.54" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="9.10" ytl="924.36" xbr="748.38" ybr="1281.00" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="962.95" ytl="75.09" xbr="1116.21" ybr="195.90" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="746.57" ytl="320.32" xbr="952.13" ybr="569.15" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="744.77" ytl="71.49" xbr="953.93" ybr="318.51" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="3.69" ytl="76.90" xbr="746.57" ybr="570.95" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="973.77" ytl="199.51" xbr="1107.20" ybr="320.32" z_order="0">
+    </box>
+    <box label="Pie chart" source="manual" occluded="0" xtl="746.57" ytl="572.75" xbr="1269.48" ybr="924.36" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1.89" ytl="578.16" xbr="744.77" ybr="918.95" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1112.60" ytl="460.96" xbr="1265.87" ybr="574.56" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="746.57" ytl="924.36" xbr="1271.28" ybr="1281.00" z_order="0">
+    </box>
+  </image>
+  <image id="11" name="dashboard_0221.png" width="1277" height="1276">
+    <box label="Line chart" source="manual" occluded="0" xtl="0.00" ytl="579.19" xbr="737.78" ybr="916.85" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="741.37" ytl="870.15" xbr="1273.01" ybr="1272.47" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="0.00" ytl="63.71" xbr="744.96" ybr="575.60" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="0.00" ytl="918.64" xbr="744.96" ybr="1276.00" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="752.15" ytl="492.98" xbr="1273.01" ybr="873.74" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="744.96" ytl="61.92" xbr="1271.21" ybr="489.38" z_order="0">
+    </box>
+  </image>
+  <image id="12" name="dashboard_0222.png" width="2048" height="1186">
+    <box label="Bar chart" source="manual" occluded="0" xtl="1103.29" ytl="682.40" xbr="2045.20" ybr="1183.02" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1153.35" ytl="129.87" xbr="2048.00" ybr="654.59" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="11.20" ytl="276.34" xbr="137.28" ybr="396.86" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="3.78" ytl="687.96" xbr="1118.13" ybr="1186.00" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="144.70" ytl="283.76" xbr="280.05" ybr="402.43" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="270.78" ytl="274.49" xbr="441.36" ybr="402.43" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="29.74" ytl="407.99" xbr="140.99" ybr="534.07" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="144.70" ytl="404.28" xbr="285.61" ybr="530.36" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="278.20" ytl="402.43" xbr="445.07" ybr="537.78" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="3.78" ytl="550.76" xbr="153.97" ybr="643.46" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="144.70" ytl="547.05" xbr="300.45" ybr="649.03" z_order="0">
+    </box>
+  </image>
+  <image id="13" name="dashboard_0223.png" width="2048" height="1171">
+    <box label="Dial chart" source="manual" occluded="0" xtl="1376.54" ytl="715.56" xbr="2020.66" ybr="1152.47" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="24.06" ytl="542.08" xbr="851.29" ybr="1083.40" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="844.86" ytl="264.20" xbr="1309.08" ybr="482.65" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1381.36" ytl="118.03" xbr="2041.54" ybr="697.89" z_order="0">
+    </box>
+  </image>
+  <image id="14" name="dashboard_0224.png" width="2048" height="1169">
+    <box label="Line chart" source="manual" occluded="0" xtl="876.99" ytl="27.11" xbr="1996.56" ybr="425.47" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="94.73" ytl="399.77" xbr="2002.99" ybr="698.53" z_order="0">
+    </box>
+  </image>
+  <image id="15" name="dashboard_0225.png" width="2048" height="1173">
+    <box label="Dial chart" source="manual" occluded="0" xtl="934.82" ytl="713.47" xbr="1444.01" ybr="1126.28" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="110.80" ytl="443.62" xbr="865.75" ybr="1089.34" z_order="0">
+    </box>
+    <box label="Dial chart" source="manual" occluded="0" xtl="939.64" ytl="292.63" xbr="1415.09" ybr="713.47" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1402.24" ytl="62.93" xbr="2015.84" ybr="1082.91" z_order="0">
+    </box>
+  </image>
+  <image id="16" name="dashboard_0226.png" width="1748" height="1223">
+    <box label="Gantt chart" source="manual" occluded="0" xtl="26.63" ytl="461.23" xbr="1743.59" ybr="1217.05" z_order="0">
+    </box>
+  </image>
+  <image id="17" name="dashboard_0227.png" width="1289" height="736">
+    <box label="Card" source="manual" occluded="0" xtl="280.93" ytl="103.30" xbr="462.91" ybr="194.29" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="63.57" ytl="95.21" xbr="255.66" ybr="196.31" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="484.14" ytl="106.33" xbr="666.11" ybr="198.33" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="63.57" ytl="230.68" xbr="506.38" ybr="511.74" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="54.47" ytl="538.02" xbr="1254.50" ybr="735.16" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="517.50" ytl="230.68" xbr="856.18" ybr="447.03" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="851.12" ytl="224.62" xbr="1233.27" ybr="453.10" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="672.18" ytl="56.80" xbr="1258.55" ybr="214.51" z_order="0">
+    </box>
+  </image>
+  <image id="18" name="dashboard_0228.png" width="1273" height="717">
+    <box label="Card" source="manual" occluded="0" xtl="659.83" ytl="121.58" xbr="822.58" ybr="233.40" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="259.46" ytl="291.31" xbr="829.57" ybr="677.70" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="7.86" ytl="220.42" xbr="640.86" ybr="705.66" z_order="0">
+    </box>
+    <box label="Waterfall chart" source="manual" occluded="0" xtl="819.58" ytl="114.59" xbr="1273.00" ybr="279.33" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="837.55" ytl="283.32" xbr="1045.23" ybr="494.99" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="1041.23" ytl="277.33" xbr="1264.88" ybr="498.98" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="827.57" ytl="498.98" xbr="1272.60" ybr="705.00" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="16.84" ytl="129.57" xbr="169.60" ybr="218.43" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="176.59" ytl="127.57" xbr="322.36" ybr="222.42" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="329.35" ytl="128.57" xbr="510.07" ybr="226.41" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="506.07" ytl="121.58" xbr="662.83" ybr="230.41" z_order="0">
+    </box>
+  </image>
+  <image id="19" name="dashboard_0229.png" width="2048" height="1504">
+    <box label="Bar chart" source="manual" occluded="0" xtl="1134.90" ytl="260.91" xbr="1558.62" ybr="763.00" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1605.16" ytl="1010.40" xbr="2026.46" ybr="1480.73" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1213.25" ytl="1012.90" xbr="1624.76" ybr="1468.48" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="818.89" ytl="1008.00" xbr="1235.30" ybr="1470.93" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="10.58" ytl="770.39" xbr="2026.46" ybr="1500.33" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="426.98" ytl="1022.69" xbr="838.49" ybr="1466.03" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="20.38" ytl="1000.64" xbr="446.58" ybr="1470.93" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="123.25" ytl="238.87" xbr="735.61" ybr="777.74" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="708.67" ytl="280.51" xbr="1147.12" ybr="775.29" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1529.23" ytl="270.71" xbr="2014.22" ybr="770.39" z_order="0">
+    </box>
+  </image>
+  <image id="20" name="dashboard_0230.png" width="2048" height="1587">
+    <box label="Bar chart" source="manual" occluded="0" xtl="1045.36" ytl="731.59" xbr="2035.26" ybr="1556.08" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="39.94" ytl="276.69" xbr="378.53" ybr="566.17" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="422.47" ytl="271.53" xbr="761.05" ybr="576.51" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="768.80" ytl="256.02" xbr="1153.91" ybr="576.51" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1174.59" ytl="245.68" xbr="1546.77" ybr="579.09" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1663.08" ytl="263.77" xbr="1980.99" ybr="579.09" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="11.51" ytl="723.83" xbr="1066.03" ybr="1543.15" z_order="0">
+    </box>
+  </image>
+  <image id="21" name="dashboard_0231.png" width="2048" height="1587">
+    <box label="Card" source="manual" occluded="0" xtl="474.81" ytl="262.63" xbr="760.54" ybr="579.25" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="822.32" ytl="262.63" xbr="1152.47" ybr="585.05" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1258.65" ytl="260.70" xbr="1538.60" ybr="575.39" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="57.78" ytl="270.35" xbr="368.62" ybr="569.60" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1633.20" ytl="256.84" xbr="2005.82" ybr="571.53" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="872.52" ytl="760.74" xbr="1289.54" ybr="1556.17" z_order="0">
+    </box>
+    <box label="Bubble chart" source="manual" occluded="0" xtl="1287.61" ytl="753.01" xbr="2048.00" ybr="1560.03" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="7.59" ytl="756.88" xbr="862.87" ybr="1563.89" z_order="0">
+    </box>
+  </image>
+  <image id="22" name="dashboard_0232.png" width="2048" height="1587">
+    <box label="Card" source="manual" occluded="0" xtl="1357.12" ytl="266.49" xbr="1646.72" ybr="581.19" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="387.93" ytl="276.14" xbr="665.94" ybr="588.91" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="708.42" ytl="274.21" xbr="998.01" ybr="586.98" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1028.90" ytl="258.77" xbr="1349.39" ybr="588.91" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1677.61" ytl="276.14" xbr="2017.40" ybr="588.91" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="362.83" ytl="791.63" xbr="774.06" ybr="1536.86" z_order="0">
+    </box>
+    <box label="Bubble chart" source="manual" occluded="0" xtl="770.20" ytl="795.49" xbr="1304.99" ybr="1536.86" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="1301.13" ytl="791.63" xbr="2048.00" ybr="1571.61" z_order="0">
+    </box>
+  </image>
+  <image id="23" name="dashboard_0233.png" width="2048" height="1587">
+    <box label="Scatter plot" source="manual" occluded="0" xtl="1209.65" ytl="252.01" xbr="2029.47" ybr="1024.91" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1212.32" ytl="1023.31" xbr="2000.03" ybr="1583.20" z_order="0">
+    </box>
+  </image>
+  <image id="24" name="dashboard_0234.png" width="1923" height="1398">
+    <box label="Area chart" source="manual" occluded="0" xtl="88.89" ytl="303.58" xbr="1913.04" ybr="1328.80" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="116.44" ytl="150.09" xbr="1009.82" ybr="547.59" z_order="0">
+    </box>
+  </image>
+  <image id="25" name="dashboard_0235.png" width="1573" height="1573">
+    <box label="Line chart" source="manual" occluded="0" xtl="6.23" ytl="657.18" xbr="1562.76" ybr="1531.76" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="12.87" ytl="0.00" xbr="1573.00" ybr="659.40" z_order="0">
+    </box>
+  </image>
+  <image id="26" name="dashboard_0236.png" width="1909" height="2048">
+    <box label="Heatmap" source="manual" occluded="0" xtl="0.00" ytl="194.01" xbr="895.66" ybr="606.24" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="0.00" ytl="594.71" xbr="904.31" ybr="963.70" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="4.90" ytl="957.93" xbr="892.78" ybr="1321.15" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="7.79" ytl="1309.62" xbr="892.78" ybr="1684.38" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="10.67" ytl="1678.61" xbr="884.13" ybr="2047.60" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1117.63" ytl="796.50" xbr="1895.97" ybr="1378.81" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1106.10" ytl="1367.28" xbr="1907.50" ybr="2030.30" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="892.78" ytl="594.71" xbr="1132.05" ybr="960.81" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="887.02" ytl="205.54" xbr="1129.16" ybr="600.47" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="892.78" ytl="969.46" xbr="1120.52" ybr="1321.15" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="892.78" ytl="1315.39" xbr="1117.63" ybr="1678.61" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="884.13" ytl="1675.73" xbr="1106.10" ybr="2044.72" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="1108.99" ytl="162.30" xbr="1898.85" ybr="773.44" z_order="0">
+    </box>
+  </image>
+  <image id="27" name="dashboard_0237.png" width="1177" height="2048">
+    <box label="Map" source="manual" occluded="0" xtl="10.92" ytl="158.86" xbr="1171.58" ybr="757.49" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="908.87" ytl="227.77" xbr="1154.35" ybr="748.87" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="0.00" ytl="738.83" xbr="1174.80" ybr="1103.70" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="0.00" ytl="1097.29" xbr="1177.00" ybr="1265.25" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="0.00" ytl="1265.25" xbr="1177.00" ybr="1452.59" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="0.00" ytl="1563.48" xbr="307.22" ybr="2004.92" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="317.99" ytl="1563.48" xbr="535.48" ybr="2007.07" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="539.78" ytl="1563.48" xbr="1162.10" ybr="2009.23" z_order="0">
+    </box>
+  </image>
+  <image id="28" name="dashboard_0238.png" width="1121" height="2048">
+    <box label="Card" source="manual" occluded="0" xtl="786.40" ytl="142.67" xbr="953.68" ybr="269.70" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="464.69" ytl="128.19" xbr="789.61" ybr="272.96" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="6.91" ytl="235.64" xbr="1114.50" ybr="2039.90" z_order="0">
+    </box>
+  </image>
+  <image id="29" name="dashboard_0239.png" width="1287" height="737">
+    <box label="Map" source="manual" occluded="0" xtl="43.29" ytl="112.54" xbr="904.04" ybr="729.21" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="928.57" ytl="138.24" xbr="1266.10" ybr="236.34" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="932.07" ytl="232.84" xbr="1100.25" ybr="292.40" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1100.25" ytl="229.34" xbr="1269.60" ybr="293.57" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="930.91" ytl="341.46" xbr="1274.27" ybr="514.31" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="934.41" ytl="525.99" xbr="1277.78" ybr="700.01" z_order="0">
+    </box>
+  </image>
+  <image id="30" name="dashboard_0240.png" width="1288" height="737">
+    <box label="Bar chart" source="manual" occluded="0" xtl="8.81" ytl="126.39" xbr="351.28" ybr="711.98" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="351.28" ytl="124.06" xbr="1276.99" ybr="720.16" z_order="0">
+    </box>
+  </image>
+  <image id="31" name="dashboard_0241.png" width="2048" height="1364">
+    <box label="Scatter plot" source="manual" occluded="0" xtl="36.41" ytl="306.36" xbr="871.59" ybr="824.74" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="865.83" ytl="26.04" xbr="2023.55" ybr="776.74" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="462.64" ytl="865.06" xbr="1238.29" ybr="1304.72" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1259.41" ytl="832.42" xbr="2013.95" ybr="1297.04" z_order="0">
+    </box>
+  </image>
+  <image id="32" name="dashboard_0242.png" width="1923" height="1538">
+    <box label="Area chart" source="manual" occluded="0" xtl="942.08" ytl="66.18" xbr="1230.01" ybr="299.98" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="1230.01" ytl="61.85" xbr="1459.48" ybr="312.97" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="1455.15" ytl="55.35" xbr="1691.12" ybr="308.64" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="1688.96" ytl="48.86" xbr="1923.00" ybr="308.64" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="24.18" ytl="315.14" xbr="1923.00" ybr="748.11" z_order="0">
+    </box>
+    <box label="Gantt chart" source="manual" occluded="0" xtl="344.58" ytl="750.27" xbr="1923.00" ybr="1510.14" z_order="0">
+    </box>
+  </image>
+  <image id="33" name="dashboard_0243.png" width="1348" height="2048">
+    <box label="Time Line" source="manual" occluded="0" xtl="17.86" ytl="305.13" xbr="1343.33" ybr="661.41" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1036.88" ytl="0.00" xbr="1345.82" ybr="297.65" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="568.48" ytl="698.78" xbr="1339.90" ybr="2048.00" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="0.00" ytl="1671.12" xbr="571.93" ybr="2048.00" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="24.61" ytl="681.36" xbr="550.59" ybr="969.28" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="27.80" ytl="1017.54" xbr="545.76" ybr="1321.50" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="22.12" ytl="1350.09" xbr="560.46" ybr="1649.40" z_order="0">
+    </box>
+  </image>
+  <image id="34" name="dashboard_0244.png" width="2048" height="1279">
+    <box label="Area chart" source="manual" occluded="0" xtl="103.73" ytl="0.00" xbr="2048.00" ybr="526.18" z_order="0">
+    </box>
+    <box label="Time Line" source="manual" occluded="0" xtl="169.59" ytl="526.18" xbr="1812.80" ybr="1247.20" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1803.67" ytl="553.15" xbr="2048.00" ybr="1249.80" z_order="0">
+    </box>
+  </image>
+  <image id="35" name="dashboard_0245.png" width="2048" height="1782">
+    <box label="Bar chart" source="manual" occluded="0" xtl="390.62" ytl="634.29" xbr="969.45" ybr="911.78" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1621.98" ytl="1369.21" xbr="1968.84" ybr="1655.37" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="392.79" ytl="1369.21" xbr="1593.80" ybr="1651.03" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1602.47" ytl="239.74" xbr="1992.69" ybr="935.63" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1014.97" ytl="627.79" xbr="1576.46" ybr="907.45" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="392.79" ytl="293.94" xbr="648.60" ybr="476.04" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="663.78" ytl="278.76" xbr="949.94" ybr="480.37" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1648.00" ytl="1048.36" xbr="1971.01" ybr="1223.96" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1288.13" ytl="1039.69" xbr="1574.29" ybr="1213.12" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="988.96" ytl="1046.19" xbr="1259.95" ybr="1217.45" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="696.30" ytl="1041.86" xbr="967.28" ybr="1217.45" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="403.63" ytl="1035.35" xbr="665.95" ybr="1217.45" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1294.63" ytl="300.44" xbr="1548.27" ybr="482.54" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1025.81" ytl="311.28" xbr="1279.46" ybr="476.04" z_order="0">
+    </box>
+  </image>
+  <image id="36" name="dashboard_0246.png" width="2048" height="1228">
+    <box label="Bar chart" source="manual" occluded="0" xtl="154.81" ytl="508.83" xbr="1362.73" ybr="1178.65" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1404.49" ytl="187.58" xbr="1985.96" ybr="479.92" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1407.70" ytl="518.47" xbr="1995.60" ybr="830.09" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1406.10" ytl="871.85" xbr="1963.50" ybr="1172.20" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="146.78" ytl="136.18" xbr="639.90" ybr="291.99" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="161.23" ytl="309.65" xbr="736.28" ybr="487.95" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="781.26" ytl="314.47" xbr="1362.73" ybr="495.98" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="654.36" ytl="131.36" xbr="1354.70" ybr="295.20" z_order="0">
+    </box>
+  </image>
+  <image id="37" name="dashboard_0247.png" width="2048" height="1213">
+    <box label="Bar chart" source="manual" occluded="0" xtl="55.22" ytl="680.54" xbr="710.58" ybr="1162.43" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="96.82" ytl="447.47" xbr="710.60" ybr="675.70" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="733.07" ytl="68.55" xbr="1597.24" ybr="688.57" z_order="0">
+    </box>
+    <box label="Bubble chart" source="manual" occluded="0" xtl="720.22" ytl="672.51" xbr="1947.41" ybr="1183.31" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="1618.13" ytl="68.55" xbr="1990.78" ybr="678.94" z_order="0">
+    </box>
+  </image>
+  <image id="38" name="dashboard_0248.png" width="1224" height="2048">
+    <box label="Bar chart" source="manual" occluded="0" xtl="582.44" ytl="193.34" xbr="1216.19" ybr="537.56" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="926.98" ytl="798.14" xbr="1205.25" ybr="930.04" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="613.32" ytl="801.35" xbr="888.38" ybr="928.43" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="315.75" ytl="801.35" xbr="595.63" ybr="930.04" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="34.26" ytl="802.96" xbr="306.10" ybr="928.43" z_order="0">
+    </box>
+  </image>
+  <image id="39" name="dashboard_0249.png" width="2048" height="1937">
+    <box label="Bar chart" source="manual" occluded="0" xtl="908.48" ytl="428.04" xbr="1411.53" ybr="719.27" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1499.10" ytl="426.00" xbr="2028.63" ybr="739.64" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="904.40" ytl="794.63" xbr="1462.44" ybr="1106.23" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1511.32" ytl="800.74" xbr="2020.48" ybr="1124.56" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="899.49" ytl="1169.07" xbr="1462.68" ybr="1494.26" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1495.67" ytl="1164.35" xbr="2032.94" ybr="1506.04" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="48.81" ytl="886.29" xbr="873.57" ybr="1496.61" z_order="0">
+    </box>
+  </image>
+  <image id="40" name="dashboard_0250.png" width="2048" height="1024">
+    <box label="Card" source="manual" occluded="0" xtl="873.62" ytl="507.86" xbr="1040.88" ybr="624.95" z_order="0">
+    </box>
+    <box label="Time Line" source="manual" occluded="0" xtl="304.91" ytl="357.32" xbr="1044.60" ybr="474.41" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="33.57" ytl="507.86" xbr="271.46" ybr="729.03" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="20.56" ytl="745.75" xbr="258.45" ybr="961.34" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1148.68" ytl="245.81" xbr="1496.22" ybr="595.21" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1131.95" ytl="621.23" xbr="1490.64" ybr="978.07" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1438.60" ytl="45.09" xbr="1704.37" ybr="219.79" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="1135.67" ytl="39.52" xbr="1407.01" ybr="212.36" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="1730.39" ytl="30.23" xbr="2001.73" ybr="212.36" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1525.95" ytl="463.26" xbr="2009.17" ybr="981.78" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="308.63" ytl="643.53" xbr="656.17" ybr="966.91" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="682.19" ytl="643.53" xbr="1048.32" ybr="966.91" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="310.49" ytl="502.29" xbr="470.32" ybr="619.37" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="496.34" ytl="500.43" xbr="665.46" ybr="619.37" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="685.91" ytl="496.71" xbr="858.75" ybr="626.81" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="1538.96" ytl="243.95" xbr="2003.59" ybr="453.97" z_order="0">
+    </box>
+  </image>
+  <image id="41" name="dashboard_0251.png" width="2048" height="1234">
+    <box label="Card" source="manual" occluded="0" xtl="436.87" ytl="70.18" xbr="849.46" ybr="224.44" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="877.33" ytl="90.63" xbr="1237.89" ybr="226.30" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1260.19" ytl="77.62" xbr="1644.90" ybr="226.30" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1659.77" ytl="85.05" xbr="2037.04" ybr="218.86" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="0.12" ytl="243.03" xbr="674.76" ybr="542.25" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1.98" ytl="523.66" xbr="691.48" ybr="759.69" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="0.00" ytl="752.26" xbr="700.78" ybr="971.56" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="3.83" ytl="973.42" xbr="695.20" ybr="1231.75" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="35.43" ytl="88.77" xbr="429.43" ybr="209.57" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="691.48" ytl="230.02" xbr="2040.76" ybr="791.29" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="704.49" ytl="789.43" xbr="2044.48" ybr="1234.00" z_order="0">
+    </box>
+  </image>
+  <image id="42" name="dashboard_0252.png" width="909" height="2048">
+    <box label="Line chart" source="manual" occluded="0" xtl="348.56" ytl="276.50" xbr="824.68" ybr="575.68" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="87.98" ytl="617.50" xbr="815.03" ybr="1042.15" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="99.36" ytl="1483.08" xbr="438.08" ybr="1939.05" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="445.52" ytl="1471.92" xbr="815.88" ybr="1942.77" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="97.50" ytl="1060.61" xbr="832.63" ybr="1434.69" z_order="0">
+    </box>
+  </image>
+  <image id="43" name="dashboard_0253.png" width="1290" height="737">
+    <box label="Data table" source="manual" occluded="0" xtl="26.52" ytl="562.67" xbr="348.44" ybr="712.51" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="683.25" ytl="116.65" xbr="1266.23" ybr="229.04" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="456.14" ytl="138.90" xbr="679.73" ybr="232.55" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="27.69" ytl="137.73" xbr="239.57" ybr="232.55" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="236.06" ytl="141.24" xbr="454.97" ybr="229.04" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="354.30" ytl="241.91" xbr="673.88" ybr="716.02" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="974.74" ytl="565.01" xbr="1262.71" ybr="714.85" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="686.76" ytl="569.69" xbr="987.61" ybr="712.51" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="689.10" ytl="251.28" xbr="1259.20" ybr="565.01" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="23.00" ytl="247.77" xbr="353.12" ybr="546.28" z_order="0">
+    </box>
+  </image>
+  <image id="44" name="dashboard_0254.png" width="1260" height="741">
+    <box label="Card" source="manual" occluded="0" xtl="591.87" ytl="121.12" xbr="771.38" ybr="197.73" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="36.17" ytl="121.12" xbr="208.82" ybr="190.87" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="229.40" ytl="121.12" xbr="397.49" ybr="197.73" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="406.63" ytl="116.55" xbr="569.00" ybr="194.30" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="788.54" ytl="116.55" xbr="978.34" ybr="201.16" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="979.49" ytl="123.41" xbr="1250.48" ybr="195.44" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="27.00" ytl="204.60" xbr="779.39" ybr="436.71" z_order="0">
+    </box>
+    <box label="Heatmap" source="manual" occluded="0" xtl="777.10" ytl="201.16" xbr="1255.05" ybr="428.70" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="16.73" ytl="436.71" xbr="651.33" ybr="721.42" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="658.19" ytl="432.13" xbr="958.91" ybr="722.56" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="961.19" ytl="422.98" xbr="1256.19" ybr="727.13" z_order="0">
+    </box>
+  </image>
+  <image id="45" name="dashboard_0255.png" width="2048" height="1451">
+    <box label="Line chart" source="manual" occluded="0" xtl="16.42" ytl="757.81" xbr="1021.28" ybr="1362.36" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="1564.56" ytl="292.15" xbr="2017.97" ybr="741.47" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="1049.88" ytl="296.23" xbr="1501.25" ybr="733.30" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="559.70" ytl="312.57" xbr="988.60" ybr="716.97" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="69.53" ytl="310.53" xbr="498.43" ybr="716.97" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1041.71" ytl="778.24" xbr="2034.31" ybr="1397.08" z_order="0">
+    </box>
+  </image>
+  <image id="46" name="dashboard_0256.png" width="2048" height="1388">
+    <box label="Bar chart" source="manual" occluded="0" xtl="468.49" ytl="792.42" xbr="953.01" ybr="1316.01" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1539.13" ytl="776.79" xbr="2029.51" ybr="1317.97" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="937.38" ytl="767.02" xbr="1521.54" ybr="1331.64" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1275.38" ytl="171.13" xbr="1959.18" ybr="767.02" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="7.41" ytl="171.13" xbr="462.63" ybr="1124.55" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="482.16" ytl="176.99" xbr="1259.75" ybr="761.16" z_order="0">
+    </box>
+  </image>
+  <image id="47" name="dashboard_0257.png" width="1198" height="2048">
+    <box label="Bar chart" source="manual" occluded="0" xtl="71.43" ytl="1165.44" xbr="412.76" ybr="1554.11" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="776.52" ytl="841.54" xbr="1110.38" ybr="1143.01" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="547.30" ytl="393.08" xbr="871.19" ybr="659.67" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="851.26" ytl="383.11" xbr="1100.41" ybr="482.77" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="868.70" ytl="487.75" xbr="1110.38" ybr="577.45" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="866.21" ytl="574.96" xbr="1105.39" ybr="672.12" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="71.43" ytl="819.12" xbr="417.74" ybr="1135.54" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="101.19" ytl="1569.07" xbr="1113.02" ybr="1978.42" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="422.73" ytl="1162.95" xbr="1097.92" ybr="1549.13" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="445.15" ytl="841.54" xbr="746.62" ybr="1140.52" z_order="0">
+    </box>
+  </image>
+  <image id="48" name="dashboard_0258.png" width="2048" height="1215">
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="7.92" ytl="452.48" xbr="662.12" ybr="625.32" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="0.00" ytl="614.17" xbr="643.53" ybr="1203.32" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="650.97" ytl="662.49" xbr="2016.97" ybr="1205.18" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="667.69" ytl="279.64" xbr="2029.98" ybr="673.64" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="665.84" ytl="88.21" xbr="2018.83" ybr="287.07" z_order="0">
+    </box>
+  </image>
+  <image id="49" name="dashboard_0259.png" width="2048" height="1154">
+    <box label="Bar chart" source="manual" occluded="0" xtl="1044.97" ytl="376.47" xbr="1702.88" ybr="616.21" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="1052.41" ytl="138.58" xbr="1511.46" ybr="356.02" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="30.23" ytl="885.70" xbr="498.57" ybr="1114.29" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="37.66" ytl="632.94" xbr="479.99" ybr="863.40" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="22.79" ytl="385.76" xbr="479.99" ybr="606.92" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="39.52" ytl="138.58" xbr="481.84" ybr="361.60" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1517.03" ytl="629.22" xbr="2022.55" ybr="1114.29" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1069.13" ytl="651.53" xbr="1509.60" ybr="1112.44" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1717.75" ytl="383.90" xbr="2011.40" ybr="612.50" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="506.00" ytl="870.83" xbr="1007.80" ybr="1112.44" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="496.71" ytl="136.72" xbr="1015.24" ybr="361.60" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="485.56" ytl="389.48" xbr="1007.80" ybr="623.65" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="487.42" ytl="634.80" xbr="1000.37" ybr="850.39" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1518.89" ytl="146.01" xbr="1989.09" ybr="350.45" z_order="0">
+    </box>
+  </image>
+  <image id="50" name="dashboard_0260.png" width="2048" height="1240">
+    <box label="Bar chart" source="manual" occluded="0" xtl="1121.17" ytl="768.98" xbr="2029.98" ybr="1209.45" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="316.44" ytl="783.85" xbr="1108.16" ybr="1213.17" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="1457.56" ytl="322.94" xbr="2029.98" ybr="765.27" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="927.89" ytl="317.37" xbr="1431.54" ybr="757.83" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="335.02" ytl="322.94" xbr="900.01" ybr="757.83" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1635.98" ytl="155.68" xbr="2022.55" ybr="298.78" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1191.79" ytl="159.39" xbr="1602.52" ybr="291.35" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="764.34" ytl="153.82" xbr="1171.35" ybr="296.92" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="312.72" ytl="151.96" xbr="751.33" ybr="293.20" z_order="0">
+    </box>
+  </image>
+  <image id="51" name="dashboard_0261.png" width="2048" height="1228">
+    <box label="Area chart" source="manual" occluded="0" xtl="1641.55" ytl="119.81" xbr="2037.42" ybr="324.24" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="959.48" ytl="134.67" xbr="1362.78" ybr="327.96" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="271.83" ytl="112.37" xbr="676.99" ybr="324.24" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1373.93" ytl="134.67" xbr="1641.55" ybr="326.10" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="695.57" ytl="153.26" xbr="959.48" ybr="324.24" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="15.36" ytl="127.24" xbr="282.98" ybr="320.52" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="688.14" ytl="350.26" xbr="1360.92" ybr="1221.90" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1375.79" ytl="794.44" xbr="2037.42" ybr="1216.33" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1368.35" ytl="346.54" xbr="2041.13" ybr="779.58" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="4.21" ytl="357.70" xbr="686.28" ybr="1223.76" z_order="0">
+    </box>
+  </image>
+  <image id="52" name="dashboard_0262.png" width="1724" height="2048">
+    <box label="Bar chart" source="manual" occluded="0" xtl="40.65" ytl="39.78" xbr="1701.10" ybr="371.30" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="37.77" ytl="377.06" xbr="1721.28" ybr="1002.61" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="26.23" ytl="1112.16" xbr="1683.80" ybr="1861.67" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1314.81" ytl="622.09" xbr="1675.15" ybr="881.54" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="801.69" ytl="1210.17" xbr="1136.08" ybr="1440.79" z_order="0">
+    </box>
+  </image>
+  <image id="53" name="dashboard_0263.png" width="2048" height="1262">
+    <box label="Bar chart" source="manual" occluded="0" xtl="31.71" ytl="762.11" xbr="760.25" ybr="1234.17" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="37.29" ytl="336.51" xbr="784.41" ybr="734.23" z_order="0">
+    </box>
+  </image>
+  <image id="54" name="dashboard_0264.png" width="1365" height="2048">
+    <box label="Card" source="manual" occluded="0" xtl="70.05" ytl="515.43" xbr="390.03" ybr="734.52" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="398.68" ytl="538.49" xbr="675.42" ybr="722.99" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="686.95" ytl="529.85" xbr="995.41" ybr="734.52" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="969.46" ytl="529.85" xbr="1286.56" ybr="734.52" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="48.14" ytl="1087.08" xbr="1351.13" ybr="2029.73" z_order="0">
+    </box>
+  </image>
+  <image id="55" name="dashboard_0265.png" width="1915" height="1486">
+    <box label="Bar chart" source="manual" occluded="0" xtl="28.81" ytl="268.10" xbr="424.14" ybr="1226.08" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="488.98" ytl="236.73" xbr="882.21" ybr="420.79" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="955.42" ytl="234.63" xbr="1359.11" ybr="414.52" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1417.68" ytl="245.09" xbr="1892.49" ybr="412.42" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="472.25" ytl="410.33" xbr="1915.00" ybr="1238.63" z_order="0">
+    </box>
+  </image>
+  <image id="56" name="dashboard_0266.png" width="2048" height="1260">
+    <box label="Bar chart" source="manual" occluded="0" xtl="669.92" ytl="562.87" xbr="1290.67" ybr="830.50" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="669.92" ytl="837.93" xbr="1307.39" ybr="1127.86" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1301.82" ytl="51.78" xbr="2011.77" ybr="1202.20" z_order="0">
+    </box>
+  </image>
+  <image id="57" name="dashboard_0267.png" width="1902" height="2048">
+    <box label="Card" source="manual" occluded="0" xtl="6.92" ytl="550.89" xbr="1889.34" ybr="804.57" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="0.00" ytl="798.80" xbr="955.34" ybr="1392.65" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="935.16" ytl="798.80" xbr="1900.87" ybr="1395.53" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="4.04" ytl="1392.65" xbr="963.99" ybr="1839.50" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="958.22" ytl="1389.76" xbr="1900.87" ybr="1865.41" z_order="0">
+    </box>
+  </image>
+  <image id="58" name="dashboard_0268.png" width="2048" height="2048">
+    <box label="Card" source="manual" occluded="0" xtl="2.02" ytl="216.49" xbr="757.29" ybr="470.17" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="0.00" ytl="447.11" xbr="751.53" ybr="1107.26" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="4.90" ytl="1505.07" xbr="725.58" ybr="1966.31" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="737.11" ytl="1381.11" xbr="2048.00" ybr="1652.09" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="742.88" ytl="1115.90" xbr="2045.87" ybr="1381.11" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="737.11" ytl="204.96" xbr="2045.87" ybr="1115.90" z_order="0">
+    </box>
+  </image>
+  <image id="59" name="dashboard_0269.png" width="1292" height="740">
+    <box label="Line chart" source="manual" occluded="0" xtl="15.72" ytl="128.40" xbr="489.40" ybr="279.64" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="494.09" ytl="120.19" xbr="759.06" ybr="269.09" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="760.23" ytl="126.05" xbr="1006.45" ybr="269.09" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1004.10" ytl="119.02" xbr="1280.80" ybr="265.57" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="2.83" ytl="287.85" xbr="463.60" ybr="660.69" z_order="0">
+    </box>
+  </image>
+  <image id="60" name="dashboard_0270.png" width="1270" height="706">
+    <box label="Bar chart" source="manual" occluded="0" xtl="920.19" ytl="133.96" xbr="1264.78" ybr="254.97" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="32.77" ytl="140.87" xbr="240.22" ybr="251.51" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="237.91" ytl="135.11" xbr="462.65" ybr="251.51" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="468.41" ytl="130.50" xbr="685.08" ybr="252.66" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="694.30" ytl="133.96" xbr="917.88" ybr="252.66" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="25.85" ytl="254.97" xbr="682.77" ybr="700.98" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="683.93" ytl="251.51" xbr="1265.94" ybr="703.29" z_order="0">
+    </box>
+  </image>
+  <image id="61" name="dashboard_0271.png" width="1023" height="2048">
+    <box label="Map" source="manual" occluded="0" xtl="9.80" ytl="695.03" xbr="615.20" ybr="1219.68" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="38.63" ytl="326.04" xbr="263.48" ybr="435.58" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="280.78" ytl="311.62" xbr="499.87" ybr="441.35" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="522.93" ytl="317.39" xbr="747.78" ybr="435.58" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="756.43" ytl="317.39" xbr="978.40" ybr="435.58" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="321.14" ytl="184.78" xbr="698.77" ybr="308.74" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="0.00" ytl="455.76" xbr="257.72" ybr="686.38" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="251.95" ytl="444.23" xbr="517.16" ybr="686.38" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="499.87" ytl="461.53" xbr="753.55" ybr="689.26" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="744.90" ytl="447.11" xbr="1023.00" ybr="706.56" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="615.18" ytl="689.26" xbr="1021.64" ybr="1202.39" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="4.04" ytl="1211.03" xbr="1015.87" ybr="1594.44" z_order="0">
+    </box>
+    <box label="Area chart" source="manual" occluded="0" xtl="0.00" ytl="1588.67" xbr="1023.00" ybr="1969.19" z_order="0">
+    </box>
+  </image>
+  <image id="62" name="dashboard_0272.png" width="1230" height="713">
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="0.51" ytl="67.93" xbr="294.07" ybr="208.57" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="296.31" ytl="65.70" xbr="588.75" ybr="209.69" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="586.52" ytl="67.93" xbr="881.19" ybr="207.46" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="1.63" ytl="211.92" xbr="298.54" ybr="379.35" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="299.65" ytl="211.92" xbr="586.52" ybr="368.19" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="593.21" ytl="209.69" xbr="884.54" ybr="377.12" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="886.77" ytl="76.86" xbr="1219.40" ybr="363.72" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="878.96" ytl="533.38" xbr="1222.75" ybr="711.98" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="0.00" ytl="538.97" xbr="291.84" ybr="709.74" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="289.61" ytl="537.85" xbr="592.10" ybr="707.51" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="596.56" ytl="541.20" xbr="876.73" ybr="713.00" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="0.00" ytl="378.23" xbr="296.31" ybr="542.31" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="294.07" ytl="394.98" xbr="589.86" ybr="537.85" z_order="0">
+    </box>
+    <box label="Percentage indicator" source="manual" occluded="0" xtl="585.40" ytl="396.09" xbr="882.31" ybr="535.62" z_order="0">
+    </box>
+  </image>
+  <image id="63" name="dashboard_0273.png" width="2048" height="1177">
+    <box label="Donut chart" source="manual" occluded="0" xtl="23.16" ytl="213.85" xbr="406.02" ybr="466.60" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="407.87" ytl="213.85" xbr="753.56" ybr="475.90" z_order="0">
+    </box>
+    <box label="Pie chart" source="manual" occluded="0" xtl="740.55" ytl="211.99" xbr="1283.23" ybr="472.18" z_order="0">
+    </box>
+    <box label="Pie chart" source="manual" occluded="0" xtl="1342.71" ytl="208.27" xbr="1989.47" ybr="470.32" z_order="0">
+    </box>
+    <box label="Pie chart" source="manual" occluded="0" xtl="21.30" ytl="470.32" xbr="744.27" ybr="1148.68" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="744.27" ytl="474.04" xbr="1361.29" ybr="1146.82" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="1353.86" ytl="472.18" xbr="2009.91" ybr="1141.24" z_order="0">
+    </box>
+  </image>
+  <image id="64" name="dashboard_0274.png" width="2048" height="1174">
+    <box label="Donut chart" source="manual" occluded="0" xtl="25.02" ytl="194.70" xbr="666.21" ybr="702.08" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="21.30" ytl="685.35" xbr="662.49" ybr="1146.26" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="662.49" ytl="204.00" xbr="1216.33" ybr="674.20" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1251.64" ytl="202.14" xbr="2011.77" ybr="677.92" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="655.06" ytl="666.77" xbr="1247.92" ybr="1142.54" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="1246.06" ytl="676.06" xbr="2026.64" ybr="1146.26" z_order="0">
+    </box>
+  </image>
+  <image id="65" name="dashboard_0275.png" width="2048" height="1192">
+    <box label="Bar chart" source="manual" occluded="0" xtl="15.73" ytl="144.34" xbr="502.66" ybr="361.78" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="517.53" ytl="140.62" xbr="997.02" ybr="620.12" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="8.30" ytl="359.93" xbr="510.09" ybr="614.54" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="15.73" ytl="610.82" xbr="1060.21" ybr="1177.67" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1049.06" ytl="133.19" xbr="2039.65" ybr="668.44" z_order="0">
+    </box>
+    <box label="Line chart" source="manual" occluded="0" xtl="1063.93" ytl="677.73" xbr="2045.22" ybr="1188.82" z_order="0">
+    </box>
+  </image>
+  <image id="66" name="dashboard_0276.png" width="2048" height="1168">
+    <box label="Bar chart" source="manual" occluded="0" xtl="391.15" ytl="165.71" xbr="1452.36" ybr="682.38" z_order="0">
+    </box>
+    <box label="Donut chart" source="manual" occluded="0" xtl="1476.52" ytl="158.28" xbr="2048.00" ybr="609.89" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1478.38" ytl="615.47" xbr="2041.50" ybr="1154.44" z_order="0">
+    </box>
+    <box label="Data table" source="manual" occluded="0" xtl="394.87" ytl="689.81" xbr="1452.36" ybr="1168.00" z_order="0">
+    </box>
+  </image>
+  <image id="67" name="dashboard_0277.png" width="2048" height="1190">
+    <box label="Donut chart" source="manual" occluded="0" xtl="1456.07" ytl="682.19" xbr="2021.06" ybr="1150.54" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1448.64" ytl="126.50" xbr="2019.20" ybr="680.33" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="394.87" ytl="221.28" xbr="1430.06" ybr="663.61" z_order="0">
+    </box>
+    <box label="Scatter plot" source="manual" occluded="0" xtl="385.57" ytl="680.33" xbr="1433.77" ybr="1146.82" z_order="0">
+    </box>
+  </image>
+  <image id="68" name="dashboard_0278.png" width="2048" height="1163">
+    <box label="Bar chart" source="manual" occluded="0" xtl="407.87" ytl="258.82" xbr="1439.35" ybr="816.38" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="435.75" ytl="888.86" xbr="915.25" ybr="1136.04" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="917.11" ytl="881.42" xbr="1443.06" ybr="1134.18" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1509.97" ytl="74.83" xbr="2028.50" ybr="364.76" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1500.68" ytl="740.18" xbr="2035.93" ybr="890.72" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1489.53" ytl="1007.80" xbr="2039.65" ybr="1156.48" z_order="0">
+    </box>
+  </image>
+  <image id="69" name="dashboard_0279.png" width="2048" height="1175">
+    <box label="Data table" source="manual" occluded="0" xtl="593.73" ytl="711.00" xbr="1123.40" ybr="1164.47" z_order="0">
+    </box>
+    <box label="Bar chart" source="manual" occluded="0" xtl="60.33" ytl="712.86" xbr="614.17" ybr="1114.29" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1660.51" ytl="699.85" xbr="1876.10" ybr="792.77" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1259.07" ytl="688.70" xbr="1457.93" ybr="785.34" z_order="0">
+    </box>
+    <box label="Map" source="manual" occluded="0" xtl="75.20" ytl="179.46" xbr="1136.41" ybr="718.43" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1242.35" ytl="142.29" xbr="1482.09" ybr="214.78" z_order="0">
+    </box>
+    <box label="Card" source="manual" occluded="0" xtl="1636.35" ytl="140.44" xbr="1868.66" ybr="218.49" z_order="0">
+    </box>
+  </image>
+</annotations>
