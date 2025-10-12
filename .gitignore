@@ -119,21 +119,14 @@ dmypy.json
 .pyre/
 
 # Project specific
+experiments/
 logs/
 results/
 checkpoints/
 *.pth
+*.pt
 *.pkl
 *.pickle
-
-# 忽略大部分训练结果，但保留最佳模型
-experiments/*/
-!experiments/yolov8s_phase1_improved/
-experiments/yolov8s_phase1_improved/*
-!experiments/yolov8s_phase1_improved/weights/
-experiments/yolov8s_phase1_improved/weights/*
-!experiments/yolov8s_phase1_improved/weights/best.pt
-experiments/yolov8s_phase1_improved/weights/best.pt
 
 # IDE
 .vscode/
@@ -151,21 +144,13 @@ experiments/yolov8s_phase1_improved/weights/best.pt
 ehthumbs.db
 Thumbs.db
 
-# Data - 忽略大文件，保留结构
-data/raw/*.png
-data/raw/*.jpg
-!data/raw/dashboard_0001.png
-data/annotations/*/*.xml
+# Data (uncomment if you want to ignore data files)
+# data/raw/
+# data/processed/
+# data/annotations/
 
 # Temporary files
 *.tmp
 *.temp
 temp/
 tmp/
-
-# 模型文件（通过百度网盘分享）
-experiments/yolov8s_phase1_improved/weights/*.pt
-ModelScope/best.pt
-
-experiments/yolov8s_phase1_improved/weights/*.pt
-ModelScope/best.pt

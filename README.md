@@ -15,43 +15,9 @@
 - **召回率**: 55.7%
 - **优势类别**: Map (95%+), Bar chart (80%+), Bubble chart (99%+)
 
-## 📦 模型下载
-
-**重要**：由于模型文件较大（21.5MB），未包含在仓库中，请先下载模型：
-
-### 百度网盘下载
-
-- 📥 **下载链接**: https://pan.baidu.com/s/1oVypGjXYjPzEvNgf2vtTzA
-- 🔑 **提取码**: `srp1`
-- 📄 **文件名**: `best.pt`
-- 📊 **模型性能**: mAP50=51.2%, Recall=55.7%
-
-### 安装位置
-
-下载后将 `best.pt` 放置到：
-```
-experiments/yolov8s_phase1_improved/weights/best.pt
-```
-
----
-
 ## 🚀 快速开始
 
-### 1. 克隆仓库
-
-```bash
-git clone https://gitee.com/Sony0427/dashboard-grounding.git
-cd dashboard-grounding
-```
-
-### 2. 下载模型
-
-从上方百度网盘链接下载 `best.pt`，放到：
-```
-experiments/yolov8s_phase1_improved/weights/best.pt
-```
-
-### 3. 安装依赖
+### 1. 安装依赖
 
 ```bash
 pip install -r requirements.txt
@@ -63,7 +29,7 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install ultralytics gradio opencv-python numpy pillow pyyaml
 ```
 
-### 4. 启动Web界面
+### 2. 启动Web界面
 
 **Windows**：
 ```bash
@@ -77,7 +43,7 @@ python scripts/web_app.py
 
 浏览器会自动打开 `http://127.0.0.1:7860`
 
-### 5. 开始检测
+### 3. 开始检测
 
 1. 拖拽仪表盘图片到上传区
 2. 调整参数（可选）
