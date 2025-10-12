@@ -1,6 +1,7 @@
 # 🎯 DashBoard Visual Grounding
 
 基于Ultralytics YOLOv8的AI图表自动检测与分类系统。
+测试网址：https://modelscope.cn/studios/sony0427/dashboard-chart-detector
 
 ## ✨ 功能特性
 
