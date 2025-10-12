@@ -162,3 +162,10 @@ data/annotations/*/*.xml
 *.temp
 temp/
 tmp/
+
+# 模型文件（通过百度网盘分享）
+experiments/yolov8s_phase1_improved/weights/*.pt
+ModelScope/best.pt
+
+experiments/yolov8s_phase1_improved/weights/*.pt
+ModelScope/best.pt
