@@ -1,4 +1,4 @@
-# 🎯 仪表盘图表检测系统
+# 🎯 DashBoard Visual Grounding
 
 基于Ultralytics YOLOv8的AI图表自动检测与分类系统。
 
@@ -15,7 +15,7 @@
 - **召回率**: 55.7%
 - **优势类别**: Map (95%+), Bar chart (80%+), Bubble chart (99%+)
 
-## 🚀 快速开始
+## 🚀 Quick Start
 
 ### 1. 下载模型文件
 
@@ -35,7 +35,7 @@
 pip install -r requirements.txt
 ```
 
-**GPU版本（推荐）**：
+**GPU版本**：
 ```bash
 pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install ultralytics gradio opencv-python numpy pillow pyyaml
@@ -107,48 +107,6 @@ Project_srp/
 | Heatmap (热力图) | ⭐⭐ 一般 |
 | Pie/Radar/Timeline等 | ⭐ 待改进 |
 
-## 🌐 部署到公开网站
-
-### 方式1：Hugging Face Spaces（推荐）
-
-**步骤**：
-
-1. **注册账号**：https://huggingface.co/join
-
-2. **创建Space**：
-   - 点击右上角头像 → New Space
-   - Space name: `dashboard-chart-detector`
-   - SDK: Gradio
-   - Visibility: Public
-
-3. **上传文件**：
-   ```
-   需要上传的文件：
-   - app.py (复制 scripts/web_app.py 并重命名)
-   - requirements.txt
-   - best.pt (模型文件，从experiments/...中复制)
-   ```
-
-4. **获得永久链接**：
-   ```
-   https://huggingface.co/spaces/你的用户名/dashboard-chart-detector
-   ```
-
-详细步骤见下方"部署指南"。
-
-### 方式2：Gradio Share（临时）
-
-最简单，但链接只有72小时有效：
-
-```python
-# 编辑 scripts/web_app.py，找到最后的 app.launch
-app.launch(share=True)  # 改为True
-
-# 运行
-START_WEB_APP.bat
-
-# 复制生成的public URL分享
-```
 
 ## 🔧 命令行使用
 
@@ -178,18 +136,8 @@ python scripts/app_demo.py --image image.png --conf 0.05 --iou 0.35
 2. 使用更大模型（YOLOv8m）
 3. 详见项目文档
 
-## 🐛 常见问题
 
-**Q: Web界面打不开？**  
-A: 确保安装了gradio: `pip install gradio>=4.0.0`
-
-**Q: 检测很慢？**  
-A: 安装GPU版PyTorch以加速
-
-**Q: 检测不到图表？**  
-A: 降低置信度阈值到0.05
-
-## 📄 许可证
+## 📄  License
 
 MIT License
 
