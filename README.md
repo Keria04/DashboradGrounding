@@ -17,7 +17,19 @@
 
 ## 🚀 快速开始
 
-### 1. 安装依赖
+### 1. 下载模型文件
+
+**下载训练好的模型** (必需)：
+
+📦 **模型文件**: `best.pt` (21.5MB)  
+🔗 **百度网盘**: https://pan.baidu.com/s/1oVypGjXYjPzEvNgf2vtTzA  
+🔑 **提取码**: `srp1`
+
+下载后放置到：`experiments/yolov8s_phase1_improved/weights/best.pt`
+
+> 💡 提示：如果目录不存在，请先创建对应文件夹
+
+### 2. 安装依赖
 
 ```bash
 pip install -r requirements.txt
@@ -29,7 +41,7 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install ultralytics gradio opencv-python numpy pillow pyyaml
 ```
 
-### 2. 启动Web界面
+### 3. 启动Web界面
 
 **Windows**：
 ```bash
@@ -43,7 +55,7 @@ python scripts/web_app.py
 
 浏览器会自动打开 `http://127.0.0.1:7860`
 
-### 3. 开始检测
+### 4. 开始检测
 
 1. 拖拽仪表盘图片到上传区
 2. 调整参数（可选）
@@ -63,7 +75,7 @@ Project_srp/
 ├── experiments/
 │   └── yolov8s_phase1_improved/  # 最新训练结果
 │       └── weights/
-│           └── best.pt         # 训练好的模型 (21.5MB)
+│           └── best.pt         # ⬇️需从网盘下载 (21.5MB)
 │
 ├── data/
 │   ├── annotations/            # 标注文件
