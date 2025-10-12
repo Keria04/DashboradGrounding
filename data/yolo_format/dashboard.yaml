@@ -1,0 +1,34 @@
+# Dashboard Chart Detection Dataset - YOLO Format
+
+# 数据路径（相对于此文件的路径）
+path: E:/python.code/Project_srp/data/yolo_format
+train: images/train
+val: images/val
+test: images/test
+
+# 类别数量
+nc: 20
+
+# 类别名称
+names:
+  0: Area chart
+  1: Bar chart
+  2: Bubble chart
+  3: Calendar
+  4: Card
+  5: Data table
+  6: Dial chart
+  7: Donut chart
+  8: Gantt chart
+  9: Heatmap
+  10: Line chart
+  11: Map
+  12: Mind Map
+  13: Percentage indicator
+  14: Pie chart
+  15: Progress bar
+  16: Radar chart
+  17: Scatter plot
+  18: Time Line
+  19: Waterfall chart
+

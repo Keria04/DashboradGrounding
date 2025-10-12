@@ -1,0 +1,203 @@
+# ====================================================================
+# Phase 1 立即改进配置 - 基于GPU训练结果优化
+# 目标: 将mAP50从48.3%提升至52-55%
+# 改进重点: 多尺度训练 + 置信度优化 + 增强策略调整
+# 预计训练时间: 15-20分钟(GPU, 150轮)
+# ====================================================================
+
+# 数据配置
+data:
+  yaml_path: "data/yolo_format/dashboard.yaml"
+  image_dir: "data/raw"
+  train_split: 0.8
+  val_split: 0.2
+
+# 模型配置
+model:
+  name: "yolov8s"  # 保持11M参数
+  weights: "experiments/yolov8s_optimized/weights/best.pt"  # 🔥 从最佳模型恢复
+  
+  # 类别列表(20个)
+  chart_types:
+    - "Area chart"
+    - "Bar chart"
+    - "Bubble chart"
+    - "Calendar"
+    - "Card"
+    - "Combination chart"
+    - "Data table"
+    - "Donut chart"
+    - "Heatmap"
+    - "Line chart"
+    - "Map"
+    - "Number indicator"
+    - "Percentage indicator"
+    - "Pie chart"
+    - "Radar chart"
+    - "Sankey diagram"
+    - "Scatter plot"
+    - "Sunburst chart"
+    - "Time Line"
+    - "Tree chart"
+
+# 训练超参数 - Phase 1 改进
+training:
+  epochs: 150  # 🔥 改进1: 从96继续到150轮
+  batch_size: 16  # 保持不变
+  imgsz: 800  # 🔥 改进2: 提升分辨率 640→800（对小目标更好）
+  
+  # 多尺度训练 🔥 改进3: 启用多尺度（之前未启用）
+  multi_scale: true
+  scale_range: [0.5, 1.5]  # 训练时随机缩放 400-1200像素
+  
+  # 优化器配置
+  optimizer: "AdamW"
+  lr0: 0.0005  # 🔥 改进4: 降低学习率 0.001→0.0005
+  lrf: 0.001  # 最终学习率: lr0 * lrf
+  momentum: 0.937
+  weight_decay: 0.0005
+  
+  # 学习率调度
+  warmup_epochs: 3  # 降低warmup（已经训练过了）
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  cos_lr: true  # 余弦退火
+  
+  # 早停策略
+  patience: 50  # 🔥 改进5: 增加耐心 30→50
+  
+  # 设备配置
+  device: "cuda"  # GPU训练
+  workers: 8
+  
+  # 保存配置
+  save_period: 10
+  save_best: true
+  
+# 数据增强策略 - Phase 1 优化
+augmentation:
+  # 🔥 改进6: 降低增强强度，减少对小目标的破坏
+  
+  # 混合增强
+  mosaic: 1.0  # 保持拼接
+  mixup: 0.10  # 降低: 0.15 → 0.10
+  copy_paste: 0.5  # 保持
+  
+  # 几何变换
+  degrees: 10.0
+  translate: 0.2
+  scale: 0.8
+  shear: 5.0
+  perspective: 0.0005
+  
+  # 翻转
+  flipud: 0.0
+  fliplr: 0.5
+  
+  # 颜色增强 - 降低强度
+  hsv_h: 0.03  # 🔥 降低: 0.05 → 0.03
+  hsv_s: 0.7   # 🔥 降低: 0.9 → 0.7
+  hsv_v: 0.4   # 🔥 降低: 0.6 → 0.4
+  
+  # 高级增强
+  auto_augment: "randaugment"
+  erasing: 0.2  # 🔥 降低: 0.4 → 0.2（减少对小目标的破坏）
+  
+  # 新增: 小目标保护
+  small_object:
+    min_area: 32  # 最小目标面积(像素²)
+    protect: true  # 保护小目标不被erasing擦除
+
+# 损失函数配置
+loss:
+  box: 7.5
+  cls: 0.5
+  dfl: 1.5
+  
+  # 类别权重 - 保持
+  class_weights:
+    "Line chart": 3.0
+    "Heatmap": 5.0
+    "Scatter plot": 2.5
+    "Pie chart": 4.0
+    "Radar chart": 4.0
+    "Timeline": 4.0
+    "Area chart": 2.0
+    "Card": 1.5
+
+# NMS配置 - 进一步优化
+nms:
+  iou_threshold: 0.35  # 🔥 改进7: 降低 0.40 → 0.35（允许更多框）
+  conf_threshold: 0.05  # 🔥 改进8: 大幅降低 0.10 → 0.05（提升召回率）
+  max_det: 300
+
+# 推理配置
+inference:
+  confidence_threshold: 0.05  # 🔥 更低的置信度
+  iou_threshold: 0.35
+  max_detections: 100
+  device: "cuda"
+  half: false
+
+# 验证配置
+validation:
+  batch_size: 16
+  conf_threshold: 0.001  # 验证时用最低阈值
+  iou_threshold: 0.6
+  plots: true
+
+# 实验配置
+experiment:
+  name: "yolov8s_phase1_improved"
+  project: "experiments"
+  exist_ok: true
+  
+# 回调配置
+callbacks:
+  tensorboard: true
+  save_plots: true
+  verbose: true
+
+# 高级配置
+advanced:
+  # Anchor优化（未来添加）
+  anchor_t: 4.0
+  
+  # 小目标优化
+  small_obj:
+    min_size: 8  # 最小目标尺寸
+    
+  # 混合精度训练
+  amp: true
+  
+  # 模型EMA
+  ema: true
+  ema_decay: 0.9999
+
+# 调试配置
+debug:
+  log_interval: 10
+  save_debug_images: false
+  profile: false
+
+# ====================================================================
+# Phase 1 改进总结:
+# 
+# 1. ✅ 从best.pt恢复训练（Epoch 66的最佳权重）
+# 2. ✅ 启用多尺度训练（800基础分辨率）
+# 3. ✅ 降低学习率（避免过度训练）
+# 4. ✅ 增加patience（允许更多时间收敛）
+# 5. ✅ 降低增强强度（保护小目标）
+# 6. ✅ 降低置信度阈值（0.10 → 0.05）
+# 7. ✅ 降低NMS阈值（提升召回率）
+# 8. ✅ 小目标保护机制
+#
+# 预期提升:
+# - mAP50: 48.3% → 52-55%
+# - Recall: 51.8% → 60-65%
+# - Line chart: 25% → 35-40%
+# - Heatmap: 15% → 20-25%
+#
+# 训练时间: 约20分钟(GPU, 150轮)
+# ====================================================================
+

@@ -1,0 +1,95 @@
+data:
+  annotations_dir: data/annotations
+  raw_dir: data/raw
+  data_dir: data
+  image_size:
+    - 640
+    - 640
+  normalize_mean:
+    - 0.485
+    - 0.456
+    - 0.406
+  normalize_std:
+    - 0.229
+    - 0.224
+    - 0.225
+  augmentation:
+    horizontal_flip: 0.5
+    vertical_flip: 0.2
+    rotation: 15
+    brightness: 0.2
+    contrast: 0.2
+    hue: 0.1
+    saturation: 0.2
+    mosaic: true
+    mixup: true
+
+model:
+  architecture: yolo
+  backbone: yolov8n  # 最轻量级的YOLO版本，训练最快
+  num_classes: 21  # 20个图表类型 + 1个背景
+  pretrained: true
+  chart_types:
+    - "Area chart"
+    - "Bar chart"
+    - "Bubble chart"
+    - "Calendar"
+    - "Card"
+    - "Data table"
+    - "Dial chart"
+    - "Donut chart"
+    - "Gantt chart"
+    - "Heatmap"
+    - "Line chart"
+    - "Map"
+    - "Mind Map"
+    - "Percentage indicator"
+    - "Pie chart"
+    - "Progress bar"
+    - "Radar chart"
+    - "Scatter plot"
+    - "Time Line"
+    - "Waterfall chart"
+
+training:
+  batch_size: 8  # YOLO可以用更大的batch size
+  num_epochs: 50
+  learning_rate: 0.01  # YOLO通常用较大的学习率
+  weight_decay: 0.0005
+  optimizer: sgd
+  momentum: 0.937
+  lr_scheduler:
+    type: cosine
+    T_max: 50
+  gradient_clip: 10.0
+  warmup_epochs: 3  # YOLO特有的warmup
+  
+  # Focal Loss参数（处理类别不平衡）
+  use_focal_loss: true
+  focal_alpha: 0.25
+  focal_gamma: 2.0
+  
+  # 数据分割
+  train_split: 0.7
+  val_split: 0.15
+  test_split: 0.15
+
+inference:
+  confidence_threshold: 0.01  # 【降低】用于测试模型是否有分化
+  nms_threshold: 0.45
+  max_detections: 100
+  device: auto
+
+experiment:
+  name: dashboard_yolo_phase1
+  save_dir: experiments
+  seed: 42
+  version: 1.0.0
+  checkpoint:
+    save_frequency: 10
+    keep_last_n: 3
+
+logging:
+  level: INFO
+  format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+  file: logs/dashboard_yolo_phase1.log

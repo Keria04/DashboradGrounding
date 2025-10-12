@@ -1,0 +1,203 @@
+# ====================================================================
+# 优化的YOLOv8训练配置 - 针对薄弱类别加强
+# 目标: 将整体mAP从37.2%提升至≥60%
+# 重点改进: Line chart, Heatmap, Scatter plot, Card召回率
+# ====================================================================
+
+# 数据配置
+data:
+  yaml_path: "data/yolo_format/dashboard.yaml"
+  image_dir: "data/raw"
+  train_split: 0.8
+  val_split: 0.2
+
+# 模型配置
+model:
+  name: "yolov8s"  # 🔥 升级: n(3M) → s(11M参数), 提升容量
+  weights: "yolov8s.pt"  # 使用更大的预训练模型
+  
+  # 类别列表(20个)
+  chart_types:
+    - "Area chart"
+    - "Bar chart"
+    - "Bubble chart"
+    - "Calendar"
+    - "Card"
+    - "Combination chart"
+    - "Data table"
+    - "Donut chart"
+    - "Heatmap"
+    - "Line chart"
+    - "Map"
+    - "Number indicator"
+    - "Percentage indicator"
+    - "Pie chart"
+    - "Radar chart"
+    - "Sankey diagram"
+    - "Scatter plot"
+    - "Sunburst chart"
+    - "Time Line"
+    - "Tree chart"
+
+# 训练超参数 - 针对小目标优化
+training:
+  epochs: 200  # 🔥 增加: 100 → 200 (GPU训练)
+  batch_size: 16  # 🔥 增加: 8 → 16 (GPU支持)
+  imgsz: 640  # 保持640，平衡速度与精度
+  
+  # 多尺度训练 🔥 NEW
+  multi_scale: true
+  scale_range: [0.7, 1.3]  # 允许±30%缩放
+  
+  # 优化器配置
+  optimizer: "AdamW"  # 自动选择
+  lr0: 0.001  # 🔥 提升初始学习率
+  lrf: 0.001  # 最终学习率: lr0 * lrf
+  momentum: 0.937
+  weight_decay: 0.0005
+  
+  # 学习率调度
+  warmup_epochs: 5  # 🔥 增加warmup
+  warmup_momentum: 0.8
+  warmup_bias_lr: 0.1
+  cos_lr: true  # 🔥 启用余弦退火
+  
+  # 早停策略
+  patience: 30  # 🔥 增加耐心: 20 → 30
+  
+  # 设备配置
+  device: "cuda"  # 🔥 改为GPU (如果可用)
+  workers: 8  # 🔥 增加数据加载线程
+  
+  # 保存配置
+  save_period: 10  # 每10轮保存一次
+  save_best: true
+  
+# 数据增强策略 - 大幅增强
+augmentation:
+  # 🔥 激进增强策略 - 针对小目标和困难样本
+  
+  # 混合增强
+  mosaic: 1.0  # 保持拼接
+  mixup: 0.15  # 🔥 NEW: 图像混合(轻度)
+  copy_paste: 0.5  # 🔥 NEW: 复制粘贴小目标
+  
+  # 几何变换
+  degrees: 10.0  # 🔥 增加旋转: 0 → ±10度
+  translate: 0.2  # 🔥 增加平移: 0.1 → 0.2
+  scale: 0.8  # 🔥 增加缩放: 0.5 → 0.8
+  shear: 5.0  # 🔥 增加剪切: 0 → ±5度
+  perspective: 0.0005  # 🔥 增加透视: 0 → 0.0005
+  
+  # 翻转
+  flipud: 0.0  # 仪表盘不适合上下翻转
+  fliplr: 0.5  # 保持左右翻转
+  
+  # 颜色增强 - 针对低对比度
+  hsv_h: 0.05  # 🔥 增强色调: 0.015 → 0.05
+  hsv_s: 0.9   # 🔥 增强饱和度: 0.7 → 0.9
+  hsv_v: 0.6   # 🔥 增强亮度: 0.4 → 0.6
+  
+  # 高级增强
+  auto_augment: "randaugment"  # 自动增强
+  erasing: 0.4  # Random erasing (模拟遮挡)
+  
+  # Albumentations增强
+  blur_limit: 7
+  
+# 损失函数配置
+loss:
+  box: 7.5  # 边界框损失权重
+  cls: 0.5  # 分类损失权重
+  dfl: 1.5  # DFL损失权重
+  
+  # 🔥 类别权重 - 针对困难类别
+  class_weights:
+    "Line chart": 3.0      # 🔥 最难检测，权重×3
+    "Heatmap": 5.0          # 🔥 样本少，权重×5
+    "Scatter plot": 2.5     # 🔥 困难，权重×2.5
+    "Pie chart": 4.0        # 🔥 样本少，权重×4
+    "Radar chart": 4.0      # 🔥 样本少，权重×4
+    "Timeline": 4.0         # 🔥 样本少，权重×4
+    "Area chart": 2.0       # 🔥 易混淆，权重×2
+    "Card": 1.5             # 🔥 召回率低，权重×1.5
+
+# NMS配置 - 宽松策略提升召回率
+nms:
+  iou_threshold: 0.4  # 🔥 降低: 0.45 → 0.4 (允许更多重叠框)
+  conf_threshold: 0.10  # 🔥 大幅降低: 0.25 → 0.10 (提升召回率)
+  max_det: 300  # 最多检测300个目标
+  agnostic: false  # 类别相关NMS
+
+# 推理配置
+inference:
+  confidence_threshold: 0.10  # 🔥 降低置信度
+  iou_threshold: 0.4
+  max_detections: 100
+  device: "cuda"  # GPU推理
+  half: false  # FP16推理(如果GPU支持)
+
+# 验证配置
+validation:
+  batch_size: 16
+  conf_threshold: 0.001  # 验证时用更低阈值
+  iou_threshold: 0.6  # mAP计算的IoU阈值
+  plots: true  # 生成可视化
+
+# 实验配置
+experiment:
+  name: "yolov8s_optimized"
+  project: "experiments"
+  exist_ok: true
+  
+# 回调配置
+callbacks:
+  tensorboard: true
+  save_plots: true
+  verbose: true
+
+# 高级配置
+advanced:
+  # Anchor优化 🔥 NEW
+  anchor_t: 4.0  # anchor匹配阈值
+  
+  # 小目标优化
+  small_obj:
+    min_size: 8  # 最小目标尺寸(像素)
+    ignore_threshold: 0.5
+  
+  # 混合精度训练
+  amp: true  # 自动混合精度(GPU)
+  
+  # 梯度累积
+  accumulate: 1  # batch_size×accumulate = 有效batch
+  
+  # 模型EMA
+  ema: true  # 指数移动平均
+  ema_decay: 0.9999
+
+# 调试配置
+debug:
+  log_interval: 10  # 每10个batch打印一次
+  save_debug_images: false
+  profile: false
+
+# ====================================================================
+# 改进说明:
+# 1. 模型升级: YOLOv8n → YOLOv8s (参数量×3.7)
+# 2. 训练轮数: 100 → 200
+# 3. 置信度阈值: 0.25 → 0.10 (提升召回率)
+# 4. 数据增强: 激进策略(mixup, copy_paste, 更强HSV)
+# 5. 类别权重: 困难类别权重×2-5
+# 6. GPU训练: 启用CUDA加速
+# 7. 学习率: 增加初始学习率和余弦退火
+# 8. 多尺度训练: 增强尺度不变性
+#
+# 预期提升:
+# - Line chart: 8.9% → 55%+
+# - Heatmap: 0% → 50%+
+# - Scatter plot: 20.8% → 50%+
+# - Card召回率: 31.5% → 60%+
+# - 整体mAP50: 37.2% → 60%+
+# ====================================================================
+
