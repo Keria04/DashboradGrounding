@@ -1,0 +1,660 @@
+1.1 Find the highest value in the Bar chart at the lower left corner.
+
+1.2 Find the highest point of the yellow curve in the line chart.
+
+2.1 Locate the day with the highest sales revenue.
+
+3.1 Locate the line chart at the bottom.
+
+3.2 Locate the UI panel on the left
+
+4.1 Locate the highest point on the line chart in the image.
+
+5.1 Find the increase in monthly visit volume.
+
+5.2 Find the share of iOS in the Donut chart in the upper right corner.
+
+6.1 Locate the position of the student number.
+
+6.2 Locate the lowest point of the bar chart.
+
+7.1 Locate the bubble representing China.
+
+7.2 Locate the bubble representing Brazil.
+
+8.1 Find the “leaders of the community”
+
+8.2 Locate the “sampled for further analysis”
+
+9.1 Find the most concentrated area of migration on the map of Japan.
+
+9.2 Find the industry with the least migration in the bar chart.
+
+9.3 Find the male proportion of the migrating population.
+
+10.1 Find the year with the lowest educational investment in the bar chart at the bottom right.
+
+10.2 Find the highest point on the bottom line chart.
+
+11.1 Find the area with the most nomadic people on the map.
+
+11.2 Find the proportion of males in the nomadic population in the donut chart on the right.
+
+12.1 Find the area with more dense points in the scatter plot at the bottom right.
+
+12.2 Find the tallest bar in the bar chart at the lower left corner.
+
+13.1 Locate the area chart represents “Legal under any circumstance”
+
+13.2 Identify the percentage of people in 2020 who agreed that abortion was "legal in some cases."
+
+14.1 Locate the row in the table that represents "Adult High School Diploma."
+
+15.1 Positioned to "Avg Satisfaction"
+
+15.2 Find the bar for “Web”
+
+16.1 Find the most scattered point in the scatter plot.
+
+17.1 Locate the data related to "Fukui."
+
+18.1 Locate "Persons under 5 years (percent)" in the table on the right.
+
+18.2 Find areas in the map with a higher rate of returned mail.
+
+19.1 Locate the UI at the lower left corner.
+
+20.1 Locate the scatter plot at the lower left corner.
+
+21.1 Locate the “Audience Score”
+
+22.1 Locate the number that represents “Boston Women Registered to Vote in the Election of 1920”
+
+22.2 Locate the bar representing the number of voting women born in the United States.
+
+23.1 Locate the bar chart at the bottom right.
+
+23.2 Locate the first number in the first row.
+
+24.1 Locate the "Salesforce 19" period on the timeline located in the middle.
+
+24.2 Locate the third row of the data table below.
+
+25.1 Locate the highest bar in the last bar chart on the first line.
+
+25.2 Locate the number representing "Days"
+
+25.3 Locate the unique scatter plot in the dashboard
+
+26.1 Locate the number indicating "Total Orders."
+
+26.2 Locate the highest point on the line chart on the far left.
+
+27.1 Find the bar in the bar chart that represents the value of 5.
+
+28.1 Find the bar in the middle of the chart that is colored deep red.
+
+29.1 Find the second tallest bar in the bar chart on the right.
+
+30.1 Find "Total Expenditure of Projects from 2015 to 2018"
+
+31.1 Locate the most outlier point in the third scatter plot from the left.
+
+31.2 Locate the bar chart at the lower left corner.
+
+32.1 Locate the UI bar at the lower left corner.
+
+32.2 Find the darkest area on the map.
+
+33.1 Locate the bar in the bar chart labeled "Top Industry" that represents "Education."
+
+33.2 Locate the bar representing "Less than 1 Year" in the "Years of Experience" category.
+
+34.1 Locate the number indicating "Estimated Total Cases."
+
+34.2 Locate the area with the lightest color on the map.
+
+35.1 Find the part with the highest share in the donut chart on the far left.
+
+36.1 Find the electricity increase data relative to Mar-25.
+
+37.1 Find the bar representing December in the bar chart indicating "Quantity"
+
+37.2 Locate the fourth-highest bar in the "Segment-Wise Sales by Sub-Category" bar chart.
+
+38.1 Locate the last row of the data table at the bottom.
+
+38.2 Locate the number indicating "Currently Onboarding."
+
+38.3 Locate the lowest bar on the bar chart on the right.
+
+39.1 Locate the map on the far right.
+
+40.1 Find the top score in the data table
+
+40.2 Locate the "Assessment Submission Rate."
+
+41.1 Locate the UI
+
+41.2 Locate to the upper right corner of the map
+
+42.1 Locate the area related to "Finance"
+
+43.1 Locate the lowest point of the line chart in the middle at the bottom.
+
+43.2 Find the second highest point on the line chart in the upper right corner.
+
+44.1 Locate the smallest portion in the circular graph at the bottom right.
+
+45.1 Locate the "Top Account Owner."
+
+45.2 Locate the percentage number at the bottom right.
+
+45.3 Locate the UI panel on the left
+
+46.1 Find the largest number in the bar chart at the lower left corner.
+
+47.1 Locate the darkest area on the map.
+
+47.2 Locate the avatar of the person on the upper right corner, furthest to the left.
+
+48.1 Locate the calendar at the lower left corner.
+
+48.2 Find the number indicating "Total Employees."
+
+49.1 Locate the most prominent indicator on the radar chart.
+
+49.2 Locate the most prominent indicator on the radar chart.
+
+50.1 Locate the number representing income.
+
+50.2 Locate the number representing the ROI
+
+51.1 Locate the number indicating "Active No. of Opportunity."
+
+51.2 Locate the orange bar in the bar chart at the upper left corner.
+
+52.1 Locate the highest point on the line chart below.
+
+52.2 Find the number representing "Total Order"
+
+52.3 Locate the second-to-last row of the data table below.
+
+53.1 Locate the bar in the bar chart representing "Sweden."
+
+53.2 Locate the tallest bar in the bar chart.
+
+54.1 Locate the center of the first map from left to right.
+
+54.2 Locate the upper left corner area of the map on the far right.
+
+55.1 Find the most special point in the scatter plot.
+
+56.1 Find the largest bubble in the bubble chart.
+
+56.2 Find the numbers related to "Page Exits".
+
+56.3 Locate the area with the number "30.1K".
+
+57.1 Locate the longest bar in the bar chart at the bottom right.
+
+57.2 Locate the end of the line chart centered.
+
+57.3 Identify data related to "Distinct Customers."
+
+58.1 Locate the bar at the bottom of the UI panel、
+
+58.2 Locate the third number card
+
+59.1 Locate the data related to "Open Requests"
+
+60.1 Locate the amount number in the lower right corner.
+
+61.1 Locate the percentage indicator with the highest share.
+
+64.1 Locate the area chart in the lower right corner.
+
+65.1 Locate the darkest area in the map at the lower left corner.
+
+65.2 Locate the numbers related to "Profit"
+
+65.3 Find the bar in the bar chart on the right with the highest value.
+
+66.1 Locate the line in the Ticked List where the Request is Elmira Kefford.
+
+66.2 Locate the numbers related to "High Priority"
+
+67.1 Find the lowest point on the farthest right line graph.
+
+67.2 Locate the UI panel on the left
+
+68.1 Locate the lowest bar in the "Customer Churn by Week" bar chart.
+
+68.2 Locate the numbers related to income growth.
+
+69.1 Locate the pie chart in the middle and identify the section that occupies a larger share.
+
+69.2 Locate the heatmap at the bottom right.
+
+70.1 Find the progress bar at 78%.
+
+71.1 Locate the highest point on the farthest right line chart.
+
+71.2 Locate the numbers related to "Profit Ratio"
+
+72.1 Locate the amount related to "Current Year Sales" below.
+
+73.1 In the numbers above, find the number representing "Attrition Rate."
+
+73.2 Find the bar representing females in the bar chart labeled "Attrition II Gender."
+
+74.1 Find the steepest interval on the line chart.
+
+74.2 Locate the character avatar at the upper left corner.
+
+74.3 Locate the numbers related to calories
+
+75.1 Locate the thickest bar in the bar chart on the left.
+
+76.1 Locate the largest number related to "tickets".
+
+77.1 Find the share related to "Within Target" in the donut chart at the center.
+
+77.2 Find the third tallest bar in the bar chart on the left.
+
+78.1 Locate the largest amount among the numbers related to the amount.
+
+79.1 Identify numbers related to "Returned Orders."
+
+79.2 Find the low points in the area chart in the upper right corner.
+
+80.1 Locate the area with the highest profits on the map on the right.
+
+81.1 Locate the area chart represents Timeout Error
+
+81.2 Locate the fourth area chart in the second row.
+
+82.1 Locate the second-largest share in the donut chart on the right.
+
+82.2 Locate the bar in the chart representing "Savings Acc."
+
+82.3 In the data table below, find the column labeled "Client Growth."
+
+83.1 Locate the most special area in the map in the middle.
+
+83.2 Locate the number indicating "Active Employees."
+
+84.1 Find the UI bar
+
+84.2 Locate the area in the bar chart that does not yet have a bar.
+
+85.1 Locate the bubble representing Asia in the bubble chart at the top right.
+
+85.2 Find the bubble representing Singapore in the bubble chart indicating Asia.
+
+86.1 Find the number representing "Orders"
+
+86.2 Find the second-highest bar in the bar chart representing "Categories".
+
+86.3 In the bar chart representing "Segments", find the bar with a value of "263,191".
+
+87.1 Locate the numbers related to "Media Views"
+
+87.2 Find the TOP 1 bar in the bar chart related to "Replies".
+
+88.1 Position the number below Impressions
+
+89.1 Locate the increase numbers related to "Tickets"
+
+89.2 Locate the numbers related to highly satisfaction
+
+90.1 Locate the bar in the "Amount per Top 10 States" chart that represents "New York."
+
+91.1 Focus on the center position of the map.
+
+91.2 Identify numbers related to "Timely Responses."
+
+92.1 In the data table below, find the row that represents "Chairs Furniture."
+
+92.2 Locate the upper-right UI section
+
+92.3 In the data table below, locate the column titled "Our price".
+
+93.1 Locate the numbers related to "Avg. Call Duration"
+
+93.2 Find the top five bars in the bar chart located in the middle-right of the image.
+
+94.1 Find the highest point of the white line in the line chart on the left.
+
+94.2 Locate the lowest point of the purple line in the line chart.
+
+95.1 Locate the numbers related to Customers
+
+96.1 Locate the area with the highest density of points in the complete scatter plot below.
+
+96.2 Locate the unique bar chart in the image.
+
+97.1 Locate the pie chart in the image that has only one share.
+
+98.1 Identify numbers related to "Gross Income."
+
+98.2 Locate the area where the dial chart pointer is located.
+
+99.1 Locate the UI panel on the left
+
+99.2 Locate the "Society Score" in the lower left corner.
+
+100.1 Find the progress bar related to Match Time in the bottom right corner.
+
+100.2 Find the progress bar with the worst progress in the multiple progress bars at the bottom right.
+
+101.1 Locate the bar representing June in the bar chart on the left.
+
+101.2 Locate the more stable area of the shallower line in the line chart on the right.
+
+102.1 Locate the pink bar chart in the image
+
+103.1 Locate the tallest bar in the middle histogram.
+
+103.2 Find the numbers related to Profits on the right side.
+
+104.1 Identify numbers related to "Time To Hire."
+
+105.1 Find the trough in the area chart on the left.
+
+105.2 Identify numbers related to "Order Amount."
+
+106.1 Locate the dial chart on the right side of the dashboard
+
+106.2 Locate the numbers related to "Month-to-date".
+
+108.1 Locate the numbers related to Open Rate
+
+108.2 Locate the peak of the red line in the line chart at the lower left corner.
+
+109.1 Locate the numbers related to "Signup"
+
+110.1 In the area chart in the middle, find the region above 40k.
+
+110.2 Locate the UI at the bottom right.
+
+111.1 Locate the numbers related to "Tickets Per Customer"
+
+111.2 Identify numbers related to "Tickets Opened."
+
+112.1 Find the highest bar in the bar chart
+
+112.2 Find a line in the line chart on the right that is higher than the others.
+
+113.1 Find the most scattered point in the scatter plot at the bottom right.
+
+114.1 Find the higher share parts in the donut chart below.
+
+114.2 Locate the highest point of the blue line in the left line chart.
+
+115.1 Locate the lowest point of the yellow solid line on the right-hand line chart.
+
+116.1 Locate the numbers related to "Click-to-Open Rate"
+
+116.2 Find the second tallest bar in the bar chart on the right.
+
+117.1 Locate the UI above.
+
+118.1 Locate the portion labeled "low" in the pie chart related to "first-year performance."
+
+118.2 Locate the row labeled "Filled" in the data table at the upper left corner.
+
+119.1 In the data table on the right, find the row with the largest value in the "Number of Records" attribute.
+
+119.2 Locate the farthest right point in the scatter plot.
+
+119.3 Locate the most densely packed area in the scatter plot.
+
+120.1 Locate the most prominent bar in the bar chart below.
+
+121.1 Locate the numbers related to "Returns"
+
+121.2 Find the bar in the bottom right graph with the lowest value.
+
+122.1 Locate the part of the donut chart with the highest share at the bottom.
+
+122.1 Locate the bar representing "Number of Calls by City" that corresponds to Los Angeles in the bar chart.
+
+123.1 Locate the map on the right.
+
+123.2 Locate the numbers related to "Spend per Vendor"
+
+123.3 Locate the tallest bar in the bar chart representing "Total Spend".
+
+124.1 Locate the Top 5 data in the bar chart.
+
+124.2 Locate the numbers related to "Total Revenue"
+
+125.1 Locate the smallest share part in the donut chart below.
+
+125.2 Locate the map to the center
+
+125.3 Locate the highest point of the light green line in the right-side line chart.
+
+126.1 Locate the UI on the left side.
+
+127.1 Locate the numbers related to "Attention Rate"
+
+127.2 Locate the bar representing the age group 45-55 in the "AGE GROUP" bar chart.
+
+127.3 Locate the tallest bar in the bar chart at the lower left.
+
+128.1 Find the fourth highest bar chart in the middle.
+
+128.2 Locate the sixth row in the table at the bottom right.
+
+129.1 Find the blue lake on the map
+
+130.1 Find the highest point of the green line in the line graph on the left
+130.2 Find the area of ​​the orange line in the line chart on the left
+130.3 Finding the smallest part of the Departure Reason donut graph
+130.4 Find the third longest column in the lower left corner of the Employee Satisfaction By Department column chart
+
+131.1 Find the donut chart
+131.2 Find the orange line in the line chart
+131.3 Find the Google Search row in the table
+131.4 Find the Spend column in the table
+
+132.1 Find the Sales by Channel chart
+132.2 Find the lowest point in the line chart
+132.3 Find the highest light blue bar in the bar chart
+132.4 Find the second highest dark blue bar in the bar chart
+
+133.1 Find the second-longest column in the School Enrollment bar chart
+133.2 Find the red section in the upper-right pie chart
+133.3 Find the lowest column in the Grade bar chart
+133.4 Find Jay's row in the table
+
+134.1 Find the largest section in the upper-left donut chart
+134.2 Find the second-largest section in the lower-right donut chart
+134.3 Find the Europe column in the lower-left Region bar chart
+134.4 Find the section with the largest decrease in the 10-year trend line chart
+
+135.1 Find the line from Page 2 to Top 20 in the Keyword Rankings chart in the lower left corner.
+135.2 Find the line from Page 1 to Top 3 in the Keyword Rankings chart in the lower left corner and the area below it.
+135.3 Find the smaller portion of the Device Performance donut chart.
+
+136.1 Find Anibal Godoy's column in the Total Fouls Committed histogram
+136.2 Find CJ Sapong's column in the Total Fouls Committed histogram
+136.3 Find the second smallest column in the Total Fouls Suffered histogram
+136.4 Find the area with the highest concentration of yellow points in the scatter plot
+136.5 Find the highest point in the scatter plot
+
+137.1 Find the largest section in the Location breakdown by Storage Size chart.
+137.2 Find the image section in the middle pie chart.
+137.3 Find the 5% section in the donut chart on the right.
+
+138.1 Find the highest point in Weekly Cases
+
+139.1 Find the highest column in the first bar chart on the upper left
+139.2 Find the section "1 month" in the "for predefined actions" diagram
+139.3 Find the Forever category in the for user submitted actions in the lower right corner and mark it
+
+140.1 Find the lowest point of the leftmost line graph
+140.2 Find the lowest bar in the middle bar chart
+140.3 Find the lowest column in the right column chart
+
+141.1 Find the highest point of the green line on the left line graph
+141.2 Find the intersection of the blue and green lines in the line graph on the left, around June 13th.
+141.3 Find the blue line in the middle line chart
+141.4 Find all the intersections of the blue and green lines in the line graph on the right
+141.5 Find the maximum area of ​​all most dark continuous regions in a map
+
+142.1 Find the Tablets section in the Costs per Device pie chart
+142.2 Find the largest segment in the Conversions per Device pie chart
+142.3 Find the smallest column in the lower right corner of the bar chart
+142.4 Finding the Highest Point in the Conversions & CPO Graph
+
+143.1 Find the continuous part of the map on the left that is the darkest red and has the largest surface level
+143.2 Find the second longest column in the upper right corner of the bar chart
+143.3 Find the third longest column in the lower right corner of the bar chart
+
+144.1 Find the highest bar in the Total Revenue bar chart for 2022
+144.2 Find the highest point in the purple area chart (line chart) in the middle
+
+145.1 Find the highest point on the purple line in the upper left corner of the line graph
+145.2 Find the longest red column in the Overview & Sales Activity  bar chart
+145.3 Find the item that contains Apple in the Top Products by Volume
+
+146.1 In the Performance Radar Chart, find the best performance point for Jun
+146.2 In the Total Income area chart, find the segment with the largest value
+
+147.1 Find the green column in the histogram Topic you are interested in
+147.2 Find the longest bar in the bar chart Topic you are interested in
+147.3 Find the Basic fundamentals in Assignment Progress
+
+148.1 In the Vehicles overview, find the second smallest component
+148.2 Find the highest column in the bar chart of Shipment statistics
+148.3 Finding the Largest Part of the Delivery Exceptions Donut chart
+
+149.1 Find the bar chart on the right
+149.2 Find the Sales Overview line chart
+
+150.1 Find all intersections of the purple and blue lines in the upper right line graph.
+150.2 Find the highest point in the second line graph from the left in the center.
+150.3 Find the Bitcoin row in the lower right table.
+
+151.1 Find the highest point in the scatter plot
+151.2 Find the largest red dot in the scatter plot
+151.3 Find the smallest part of the Received donut chart
+151.4 Find the highest point in the lower right corner of the line chart
+
+152.1 Find the longest bar in the Male column of the histogram
+152.2 Find the second longest bar in the Female column of the histogram
+152.3 Find the bar in the Female column for the 45-54 category
+152.4 Find the Indonesia label on the map
+152.5 Find the point of the company with the highest value in the Fashion column of the radar chart
+
+153.1 Find the highest point of the red line in the line graph in the lower left corner.
+153.2 Find the percentage progress bar for Blogging in the lower right corner.
+
+154.1 Find the highest point of the yellow line in the upper left line chart.
+154.2 Find the highest point of the blue line in the upper left line chart.
+154.3 Find the shortest bar in the Bars with opacity gradient bar chart.
+154.4 Find the second tallest bar in the Bars with hue gradient bar chart.
+154.5 Find the green line in the upper line chart.
+
+155.1 Find the highest bar in the bar chart
+155.2 Find the highest dark purple bar in the dark purple portion of the bar chart
+155.3 Find the highest point in the area chart below
+
+156.1 Find the second largest segment in the doughnut chart in the lower right corner
+156.2 Find the longest bar in the bar chart in the lower left corner
+156.3 Find the bar in the Asian alone category in the bar chart in the lower left corner
+156.4 Find the map
+
+157.1 Find the rightmost points in a scatter plot
+157.2 Find the leftmost points in a scatter plot
+157.3 Find densely populated areas in a scatter plot
+157.4 Finding the Area of ​​Red Points in a Scatter Plot
+
+158.1 Find the Harvest Sources column in the Key Metrics by Organization Type column chart.
+158.2 Find the red column in Dataset Age.
+158.3 Find the red portion of the donut chart in the lower right corner.
+
+159.1 Find the highest point in a line graph
+159.2 Find the lowest point in a line graph
+159.3 Find the location of Cluster 1 in a BMI cluster distribution graph
+159.4 Find the cell with the largest value in a heat map
+
+160.1 Find the highest point on the ROC curve
+160.2 Find the darkest part of the heat map
+
+161.1 Find the densest point in the lower right corner of the scatter plot
+161.2 Find the densest point in the lower left corner of the scatter plot
+
+162.1 Find the line for Ghana in the line graph
+162.2 Find the highest point on the line for Sweden in the line graph
+162.3 Find the highest point on the line for India in the line graph
+
+163.1 Find the map
+163.2 Find the map button
+163.3 Find the table button
+
+164.1 Find the green portion of the line graph
+164.2 Find the red portion of the line graph
+164.3 Find the Community button
+
+165.1 Find the area with the highest concentration of red dots on the map
+165.2 Find the highest column in the bar chart
+165.3 Find the fourth highest column in the bar chart
+
+166.1 Find the highest bar in the North America bar chart
+166.2 Find the second highest bar in the Europe bar chart
+166.3 Find the third highest bar in the Southeast Asia bar chart
+166.4 Find the red bar in the Africa bar chart
+
+167.1 Find the highest point of the green line in the lower left corner of the line graph.
+167.2 Find the rightmost point of the red line in the lower right corner of the line graph.
+
+168.1 Find the part of the map with the most red.
+168.2 Find the highest point of the green line on the left line graph.
+168.3 Find the highest point of the orange line on the left line graph.
+168.4 Find the highest point of the orange line on the left line graph.
+
+169.1 Find the shortest bar in the Top 10 by Transferred Calls bar chart
+169.2 Find the largest section in the Resolution Status Summary
+
+170.1 Find the second highest bar in the Total Rev bar chart in the lower center.
+170.2 Find the lowest point in the line chart in the lower right corner.
+
+171.1 Find the darkest green portion of the right map
+171.2 Find the darkest red portion of the left map
+171.3 Find the rightmost bubble in the bubble chart
+171.4 Find the densest portion of the bubble chart
+
+172.1 Find the tallest bar in the upper left bar chart
+172.2 Find the longest red bar in the upper left bar chart
+172.3 Find the largest portion of the doughnut chart
+172.4 Find the smallest portion of the doughnut chart
+172.5 Find the highest point in the scatter plot
+
+173.1 Find the highest bar in a bar chart
+
+174.1 Find the highest point in a line chart
+174.2 Find the row with the opening price in a table
+
+175.1 Identify the most severe risk
+175.2 Identify the location of indicators of insomnia risk
+
+176.1 Find the deep sleep portion of the doughnut chart
+176.2 Find the label of the smallest portion of the doughnut chart
+176.3 Find the duration of sleep in the sleep quality analysis table
+
+177.1 Find the immunity block in the table
+
+178.1 Find the second smallest part of the top donut.
+178.2 Find the smallest part of the middle donut. If it is not shown in the donut, label this smallest part.
+178.3 Find the part of the bottom donut that is labeled "Normal."
+
+179.1 Find the densely green portion of the upper bar chart
+179.2 Find the tallest bar in the second bar chart
+179.3 Find the tallest dark blue bar in the second bar chart
+
+180.1 Find the highest bar in the first histogram
+180.2 Find the bar below the moving average in the first histogram
